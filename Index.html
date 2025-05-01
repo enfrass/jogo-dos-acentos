@@ -178,13 +178,16 @@
 
   <script>
     // palavras temporárias, depois vamos carregar de arquivo ou API
-    const palavras = [
-      { sem: "cafe", com: "café", regra: "Oxítona terminada em 'e' leva acento agudo." },
-      { sem: "limao", com: "limão", regra: "Oxítona terminada em 'ão' leva acento." },
-      { sem: "heroi", com: "herói", regra: "Oxítona terminada em 'i' leva acento." },
-      { sem: "lapis", com: "lápis", regra: "Paroxítona terminada em 'is' leva acento." },
-      { sem: "vo", com: ["vó", "vô"], regra: "Monossílabo tônico com 'o' leva acento." },
-    ];
+    let palavras = [];
+
+fetch('palavras_portugues.json')
+  .then(res => res.json())
+  .then(data => {
+    palavras = data.sort(() => Math.random() - 0.5);
+    current = 0;
+    loadWord();
+
+  });
 
     let current = 0;
     let acertos = 0;
@@ -359,11 +362,11 @@ function removeAccent() {
       respostaConfirmada = true;
     }
 
-    function nextWord() {
-      current++;
-      selectedIndex = null;
-      loadWord();
-    }
+function nextWord() {
+  current++;
+  selectedIndex = null;
+  loadWord();
+}
 
     function showFinalMessage() {
       document.getElementById('letterBoxes').style.display = 'none';
@@ -399,9 +402,6 @@ function removeAccent() {
           nextWord();
         }
       }
-    });
-
-    loadWord();
-  </script>
+    });</script>
 </body>
 </html>
