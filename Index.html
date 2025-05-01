@@ -276,22 +276,27 @@
       document.getElementById('clickSound1').play();
     }
 
-    function removeAccent() {
-      if (selectedIndex === null) return;
-      const mapa = {
-      'á': 'a', 'à': 'a', 'â': 'a', 'ã': 'a',
-      'é': 'e', 'è': 'e', 'ê': 'e',
-      'í': 'i', 'ì': 'i', 'î': 'i',
-      'ó': 'o', 'ò': 'o', 'ô': 'o', 'õ': 'o',
-      'ú': 'u', 'ù': 'u', 'û': 'u',
-      'ç': 'c'
+function removeAccent() {
+  const mapa = {
+    'á': 'a', 'à': 'a', 'â': 'a', 'ã': 'a',
+    'é': 'e', 'è': 'e', 'ê': 'e',
+    'í': 'i', 'ì': 'i', 'î': 'i',
+    'ó': 'o', 'ò': 'o', 'ô': 'o', 'õ': 'o',
+    'ú': 'u', 'ù': 'u', 'û': 'u',
+    'ç': 'c'
   };
+
   const boxes = document.querySelectorAll('.letter-box');
-  const letra = boxes[selectedIndex].textContent;
-  boxes[selectedIndex].textContent = mapa[letra] || letra;
+
+  // Remove o acento de todas as letras
+  boxes.forEach((box, index) => {
+    const letra = box.textContent;
+    box.textContent = mapa[letra] || letra;
+  });
+
   document.getElementById('clickSound').play();
   showPopup("Todos os acentos foram removidos");
-    }
+}
 
     function getCurrentResposta() {
       return Array.from(document.querySelectorAll('.letter-box')).map(e => e.textContent).join('').toLowerCase();
