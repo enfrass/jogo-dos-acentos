@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo dos Acentos</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #e0eafc, #cfdef3);
+      max-width: 600px;
+      margin: 50px auto;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+      user-select: none;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 32px;
+      color: #333;
+    }
+
+    .word {
+      font-size: 26px;
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .letter-boxes {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .letter-box {
+      border: 2px solid #ccc;
+      padding: 12px;
+      width: 35px;
+      height: 35px;
+      text-align: center;
+      font-size: 22px;
+      border-radius: 6px;
+      background: #fff;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .letter-box:hover {
+      background: #f0f8ff;
+      transform: scale(1.05);
+    }
+
+    .letter-box.selected {
+      background: #4facfe;
+      border-color: #4facfe;
+      color: white;
+    }
+
+    .accent-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .accent-buttons button {
+      background-color: #4facfe;
+      border: none;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .accent-buttons button:hover {
+      background-color: #00f2fe;
+    }
+
+    button, input {
+      font-size: 16px;
+    }
+
+    #checkButton, #nextButton, #giveUpButton {
+      display: inline-block;
+      margin: 10px auto;
+      padding: 10px 20px;
+      font-size: 16px;
+      background: #4facfe;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    #checkButton:hover, #nextButton:hover, #giveUpButton:hover {
+      background: #00f2fe;
+    }
+
+    .feedback {
+      text-align: center;
+      font-weight: bold;
+      margin-top: 15px;
+      font-size: 18px;
+    }
+
+    .score {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .correct {
+      background-color: rgba(52, 202, 52, 0.87) !important;
+    }
+
+    .incorrect-accent {
+      background-color: #fff3a4 !important;
+    }
+
+    .wrong {
+      background-color: #f5a4a4 !important;
+    }
+
+    #finalMessage {
+      display: none;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+      margin-top: 20px;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      animation: dropIn 0.6s ease-out;
+    }
+
+    @keyframes dropIn {
+      from { transform: translateY(-200px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <h1>Jogo dos Acentos</h1>
+  <div class="word" id="word">carregando...</div>
+  <div class="letter-boxes" id="letterBoxes"></div>
+  <div class="accent-buttons" id="accent-buttons">
+    <button onclick="applyAccent('´')">´</button>
+    <button onclick="applyAccent('`')">`</button>
+    <button onclick="applyAccent('^')">^</button>
+    <button onclick="applyAccent('~')">~</button>
+    <button onclick="applyAccent('ç')">ç</button>
+    <button onclick="removeAccent()">remover</button>
+  </div>
+  <div style="text-align: center;">
+    <button onclick="checkAnswer()" id="checkButton">Verificar</button>
+    <button onclick="giveUp()" id="giveUpButton" style="display:none">Desistir</button>
+    <button onclick="nextWord()" id="nextButton" style="display:none">Próxima Palavra</button>
+  </div>
+  <div class="feedback" id="feedback"></div>
+  <div class="score" id="score"></div>
+  <div id="finalMessage"></div>
+    <audio id="clickSound" src="https://www.soundjay.com/buttons/sounds/button-37a.mp3"></audio>
+  <audio id="clickSound1" src="https://www.soundjay.com/buttons/sounds/button-38.mp3"></audio>
+  <audio id="clickSound2" src="https://www.myinstants.com/media/sounds/correcto_Xgyp04B.mp3"></audio>
+  <audio id="clickSound3" src="https://www.soundjay.com/misc/sounds/fail-trombone-03.mp3"></audio>
+  <audio id="clickSound5/5" src="https://www.myinstants.com/media/sounds/well-done-follow.mp3"></audio>
+  <audio id="clickSound4/5" src="https://www.myinstants.com/media/sounds/success-chime.mp3"></audio>
+  <audio id="clickSound0/5" src="https://www.myinstants.com/media/sounds/failure-sound.mp3"></audio>
+  <audio id="clickSoundError" src="https://www.myinstants.com/media/sounds/app-error.mp3"></audio>
+
+
+  <script>
+    // palavras temporárias, depois vamos carregar de arquivo ou API
+    const palavras = [
+      { sem: "cafe", com: "café", regra: "Oxítona terminada em 'e' leva acento agudo." },
+      { sem: "limao", com: "limão", regra: "Oxítona terminada em 'ão' leva acento." },
+      { sem: "heroi", com: "herói", regra: "Oxítona terminada em 'i' leva acento." },
+      { sem: "lapis", com: "lápis", regra: "Paroxítona terminada em 'is' leva acento." },
+      { sem: "vo", com: ["vó", "vô"], regra: "Monossílabo tônico com 'o' leva acento." },
+    ];
+
+    let current = 0;
+    let acertos = 0;
+    let selectedIndex = null;
+    let respostaConfirmada = false;
+    let errouPrimeiro = false;
+
+    function loadWord() {
+      if (current >= palavras.length) return showFinalMessage();
+      respostaConfirmada = false;
+      errouPrimeiro = false;
+      const word = palavras[current].sem;
+      const container = document.getElementById('letterBoxes');
+      container.innerHTML = '';
+      for (let i = 0; i < word.length; i++) {
+        const span = document.createElement('div');
+        span.className = 'letter-box';
+        span.textContent = word[i];
+        span.addEventListener('click', () => selectLetter(i));
+        container.appendChild(span);
+      }
+      document.getElementById('word').textContent = `Palavra ${current + 1}`;
+      document.getElementById('feedback').textContent = "";
+      document.getElementById('score').textContent = "";
+      document.getElementById('checkButton').style.display = 'inline-block';
+      document.getElementById('nextButton').style.display = 'none';
+      document.getElementById('giveUpButton').style.display = 'none';
+    }
+
+    function selectLetter(index) {
+      document.querySelectorAll('.letter-box').forEach(box => box.classList.remove('selected'));
+      document.querySelectorAll('.letter-box')[index].classList.add('selected');
+      document.getElementById('clickSound').play();
+      selectedIndex = index;
+    }
+
+    function applyAccent(acento) {
+      if (selectedIndex === null) return;
+      const boxes = document.querySelectorAll('.letter-box');
+      let letra = boxes[selectedIndex].textContent;
+      const mapa = {
+        'a': { '´': 'á', '`': 'à', '^': 'â', '~': 'ã' },
+        'e': { '´': 'é', '`': 'è', '^': 'ê' },
+        'i': { '´': 'í', '`': 'ì', '^': 'î' },
+        'o': { '´': 'ó', '`': 'ò', '^': 'ô', '~': 'õ' },
+        'u': { '´': 'ú', '`': 'ù', '^': 'û' },
+        'c': { 'ç': 'ç' }
+      };
+      for (const base in mapa) {
+        for (const ac in mapa[base]) {
+          if (mapa[base][ac] === letra) letra = base;
+        }
+      }
+      const lower = letra.toLowerCase();
+      if (mapa[lower] && mapa[lower][acento]) {
+        boxes[selectedIndex].textContent = mapa[lower][acento];
+      }
+      document.getElementById('clickSound1').play();
+    }
+
+    function removeAccent() {
+      if (selectedIndex === null) return;
+      const mapa = {
+        'á': 'a', 'à': 'a', 'â': 'a', 'ã': 'a',
+        'é': 'e', 'è': 'e', 'ê': 'e',
+        'í': 'i', 'ì': 'i', 'î': 'i',
+        'ó': 'o', 'ò': 'o', 'ô': 'o', 'õ': 'o',
+        'ú': 'u', 'ù': 'u', 'û': 'u',
+        'ç': 'c'
+      };
+      const boxes = document.querySelectorAll('.letter-box');
+      const letra = boxes[selectedIndex].textContent;
+      boxes[selectedIndex].textContent = mapa[letra] || letra;
+      document.getElementById('clickSound').play();
+    }
+
+    function getCurrentResposta() {
+      return Array.from(document.querySelectorAll('.letter-box')).map(e => e.textContent).join('').toLowerCase();
+    }
+
+    function clearColors() {
+      document.querySelectorAll('.letter-box').forEach(box => {
+        box.classList.remove('correct', 'incorrect-accent', 'wrong');
+      });
+    }
+
+    function checkAnswer() {
+      if (respostaConfirmada) return;
+      clearColors();
+      const resposta = getCurrentResposta();
+      const corretaArray = Array.isArray(palavras[current].com) ? palavras[current].com : [palavras[current].com];
+      const boxes = document.querySelectorAll('.letter-box');
+
+      for (let i = 0; i < boxes.length; i++) {
+        const respostaChar = resposta[i];
+        const corretaChars = corretaArray.map(c => c[i]);
+        const semAcentoChar = palavras[current].sem[i];
+
+        if (corretaChars.includes(respostaChar)) {
+          boxes[i].classList.add('correct');
+        } else if (corretaChars.some(c => c?.toLowerCase() === respostaChar?.toLowerCase())) {
+          boxes[i].classList.add('incorrect-accent');
+        } else if (respostaChar?.toLowerCase() === semAcentoChar) {
+          boxes[i].classList.add('incorrect-accent');
+        } else {
+          boxes[i].classList.add('wrong');
+        }
+      }
+
+      if (corretaArray.some(c => c.toLowerCase() === resposta)) {
+        document.getElementById('feedback').textContent = "✅ Correto!";
+        if (!errouPrimeiro) acertos++;
+        document.getElementById('clickSound2').play();
+        document.getElementById('nextButton').style.display = 'inline-block';
+        document.getElementById('checkButton').style.display = 'none';
+        document.getElementById('giveUpButton').style.display = 'none';
+        respostaConfirmada = true;
+      } else {
+        document.getElementById('feedback').textContent = "❌ Tente novamente ou clique em Desistir.";
+        document.getElementById('giveUpButton').style.display = 'inline-block';
+        errouPrimeiro = true;
+        document.getElementById('clickSoundError').play();
+      }
+    }
+
+    function giveUp() {
+      clearColors();
+      const corretaArray = Array.isArray(palavras[current].com) ? palavras[current].com : [palavras[current].com];
+      const correta = corretaArray[0];
+      const boxes = document.querySelectorAll('.letter-box');
+      const resposta = getCurrentResposta();
+
+      for (let i = 0; i < boxes.length; i++) {
+        if (resposta[i] === correta[i]) {
+          boxes[i].classList.add('correct');
+        } else {
+          boxes[i].classList.add('wrong');
+        }
+      }
+
+      document.getElementById('feedback').innerHTML = `Errado. Correto: <strong>${corretaArray.join(" ou ")}</strong><br>Regra: ${palavras[current].regra}`;
+      document.getElementById('clickSound3').play();
+      document.getElementById('nextButton').style.display = 'inline-block';
+      document.getElementById('giveUpButton').style.display = 'none';
+      document.getElementById('checkButton').style.display = 'none';
+      respostaConfirmada = true;
+    }
+
+    function nextWord() {
+      current++;
+      selectedIndex = null;
+      loadWord();
+    }
+
+    function showFinalMessage() {
+      document.getElementById('letterBoxes').style.display = 'none';
+      document.getElementById('accent-buttons').style.display = 'none';
+      document.getElementById('checkButton').style.display = 'none';
+      document.getElementById('nextButton').style.display = 'none';
+      document.getElementById('giveUpButton').style.display = 'none';
+      document.getElementById('feedback').style.display = 'none';
+      document.getElementById('word').textContent = "Fim do jogo!";
+      const score = acertos / palavras.length;
+      let mensagemFinal;
+      if (score === 1) {
+        mensagemFinal = "Parabéns, foi perfeito!";
+        document.getElementById('clickSound5/5').play();
+      } else if (score >= 0.6) {
+        mensagemFinal = "Você foi bem, mas precisa estudar mais!";
+        document.getElementById('clickSound4/5').play();
+      } else {
+        mensagemFinal = "Não desanime, que tal tentar novamente?";
+        document.getElementById('clickSound0/5').play();
+      }
+
+      const resumo = `\nVocê acertou ${acertos}/${palavras.length}`;
+      document.getElementById('finalMessage').textContent = mensagemFinal + resumo;
+      document.getElementById('finalMessage').style.display = 'block';
+    }
+
+    document.addEventListener('keydown', function(event) {
+      if (event.key === 'Enter') {
+        if (document.getElementById('checkButton').style.display !== 'none') {
+          checkAnswer();
+        } else if (document.getElementById('nextButton').style.display !== 'none') {
+          nextWord();
+        }
+      }
+    });
+
+    loadWord();
+  </script>
+</body>
+</html>
