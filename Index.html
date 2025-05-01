@@ -139,7 +139,7 @@
   bottom: 30px;
   left: 50%;
   transform: translateX(-50%);
-  background: #4facfe;
+  background: #ff0000;
   color: white;
   padding: 10px 20px;
   border-radius: 10px;
@@ -164,7 +164,7 @@
 </head>
 <body>
   <h1>Jogo dos Acentos</h1>
-  <div id="popup"></div>
+  <div id="popup" class="popup">Não é possível adicionar "ç" na letra "<span id="letra-invalida"></span>"</div>
   <div class="word" id="word">carregando...</div>
   <div class="letter-boxes" id="letterBoxes"></div>
   <div class="accent-buttons" id="accent-buttons">
@@ -248,29 +248,39 @@
       selectedIndex = index;
     }
 
-    function applyAccent(acento) {
-      if (selectedIndex === null) return;
-      const boxes = document.querySelectorAll('.letter-box');
-      let letra = boxes[selectedIndex].textContent;
-      const mapa = {
-        'a': { '´': 'á', '`': 'à', '^': 'â', '~': 'ã' },
-        'e': { '´': 'é', '`': 'è', '^': 'ê' },
-        'i': { '´': 'í', '`': 'ì', '^': 'î' },
-        'o': { '´': 'ó', '`': 'ò', '^': 'ô', '~': 'õ' },
-        'u': { '´': 'ú', '`': 'ù', '^': 'û' },
-        'c': { 'ç': 'ç' }
-      };
-      for (const base in mapa) {
-        for (const ac in mapa[base]) {
-          if (mapa[base][ac] === letra) letra = base;
-        }
-      }
-      const lower = letra.toLowerCase();
-      if (mapa[lower] && mapa[lower][acento]) {
-        boxes[selectedIndex].textContent = mapa[lower][acento];
-      }
-      document.getElementById('clickSound1').play();
+function applyAccent(acento) {
+  if (selectedIndex === null) return;
+  const boxes = document.querySelectorAll('.letter-box');
+  let letra = boxes[selectedIndex].textContent;
+  const mapa = {
+    'a': { '´': 'á', '`': 'à', '^': 'â', '~': 'ã' },
+    'e': { '´': 'é', '`': 'è', '^': 'ê' },
+    'i': { '´': 'í', '`': 'ì', '^': 'î' },
+    'o': { '´': 'ó', '`': 'ò', '^': 'ô', '~': 'õ' },
+    'u': { '´': 'ú', '`': 'ù', '^': 'û' },
+    'c': { 'ç': 'ç' }
+  };
+
+  // Converte letra acentuada de volta para base, se necessário
+  for (const base in mapa) {
+    for (const ac in mapa[base]) {
+      if (mapa[base][ac] === letra) letra = base;
     }
+  }
+
+  const lower = letra.toLowerCase();
+
+  if (acento === 'ç' && lower !== 'c') {
+    showPopup(`Não é possível adicionar "ç" na letra "${letra}"`);
+    return;
+  }
+
+  if (mapa[lower] && mapa[lower][acento]) {
+    boxes[selectedIndex].textContent = mapa[lower][acento];
+  }
+
+  document.getElementById('clickSound1').play();
+}
 
 function removeAccent() {
   const mapa = {
