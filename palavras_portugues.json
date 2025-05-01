@@ -1,0 +1,90 @@
+[
+  {
+    "sem": "cafe",
+    "com": "café",
+    "regra": "Oxítona terminada em 'e' leva acento agudo."
+  },
+  {
+    "sem": "limao",
+    "com": "limão",
+    "regra": "Oxítona terminada em 'ão' leva acento."
+  },
+  {
+    "sem": "heroi",
+    "com": "herói",
+    "regra": "Oxítona terminada em 'i' leva acento."
+  },
+  {
+    "sem": "lapis",
+    "com": "lápis",
+    "regra": "Paroxítona terminada em 'is' leva acento."
+  },
+  {
+    "sem": "vo",
+    "com": [
+      "vó",
+      "vô"
+    ],
+    "regra": "Monossílabo tônico com 'o' leva acento."
+  },
+  {
+    "sem": "sabado",
+    "com": "sábado",
+    "regra": "Paroxítona terminada em 'o' leva acento."
+  },
+  {
+    "sem": "camara",
+    "com": "câmara",
+    "regra": "Proparoxítonas são sempre acentuadas."
+  },
+  {
+    "sem": "cerebro",
+    "com": "cérebro",
+    "regra": "Proparoxítonas são sempre acentuadas."
+  },
+  {
+    "sem": "juri",
+    "com": "júri",
+    "regra": "Paroxítona terminada em 'i' leva acento."
+  },
+  {
+    "sem": "fregues",
+    "com": "freguês",
+    "regra": "Oxítona terminada em 'es' leva acento."
+  },
+  {
+    "sem": "porta",
+    "com": "porta",
+    "regra": "Paroxítona terminada em 'a' não leva acento."
+  },
+  {
+    "sem": "irmao",
+    "com": "irmão",
+    "regra": "Oxítona terminada em 'ão' leva acento."
+  },
+  {
+    "sem": "voce",
+    "com": "você",
+    "regra": "Oxítona terminada em 'e' leva acento agudo."
+  },
+  {
+    "sem": "pavao",
+    "com": "pavão",
+    "regra": "Oxítona terminada em 'ão' leva acento."
+  },
+  {
+    "sem": "alem",
+    "com": "além",
+    "regra": "Oxítona terminada em 'em' leva acento."
+  },
+  {
+    "sem": "tunel",
+    "com": "túnel",
+    "regra": "Paroxítona terminada em 'el' leva acento."
+  },
+  {
+    "sem": "japones",
+    "com": "japonês",
+    "regra": "Oxítona terminada em 'es' leva acento."
+  }
+]
