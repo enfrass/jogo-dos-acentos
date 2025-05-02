@@ -184,6 +184,24 @@
   margin: 5px;
   min-width: 120px;
 }
+@keyframes fadeInRed {
+    0% { opacity: 0; }
+    30% { opacity: 0.2; }
+    60% { opacity: 0.5; }
+    85% { opacity: 0.8; }
+    100% { opacity: 1; }
+  }
+
+  #bondShot {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #a00000;
+    z-index: 10000;
+    opacity: 0;
+  }
 </style>
 </head>
 <body>
@@ -246,6 +264,11 @@
     <button onclick="voltarTelaInicial()" id="botaoTelaInicial" style="display:none; margin-top: 10px;">⬅️ Voltar para a Tela Inicial</button>
     <button id="recomecarButton" onclick="iniciarJogo()" style="display:none; margin-top: 20px; font-size: 20px;">🔄 Recomeçar</button>
   </div>
+  <audio id="bondTheme" src="https://www.myinstants.com/media/sounds/007-james-bond-theme_TZToRFY.mp3"></audio>
+  <div id="bondEffect" style="display:none; opacity: 0; pointer-events: none; position:fixed; top:0; left:0; width:100%; height:100%; background:black; z-index:9999; display:flex; align-items:center; justify-content:center;">
+    <img src="https://thegraphicalcloud.files.wordpress.com/2014/10/gunbarrel-01.png" style="width:100%; height:100%; object-fit:cover;">
+  </div>
+  <div id="bondShot" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:#a00000; z-index:9998; opacity: 0;"></div>
     <audio id="clickSound" src="https://www.soundjay.com/buttons/sounds/button-37a.mp3"></audio>
   <audio id="clickSound1" src="https://www.soundjay.com/buttons/sounds/button-38.mp3"></audio>
   <audio id="clickSound2" src="https://www.myinstants.com/media/sounds/correcto_Xgyp04B.mp3"></audio>
@@ -274,6 +297,8 @@
     document.getElementById('voltarInicio').style.display = 'none';
     document.getElementById('botaoTelaInicial').style.display = 'none';
     document.getElementById('avisoImpossivel').style.display = 'none';
+    document.getElementById('bondTheme').style.display = 'none';
+
 
   // limpa conteúdo visual de jogo
   document.getElementById('letterBoxes').innerHTML = '';
@@ -612,6 +637,26 @@ function showFinalMessage() {
           nextWord();
         }
       }
-    });</script>
+    });
+    let bondSequence = ['j', 'a', 'm', 'e', 's', 'b', 'o', 'n', 'd'];
+let bondIndex = 0;
+
+document.addEventListener('keydown', function (e) {
+  if (e.target.tagName.toLowerCase() === 'input') return;
+  if (e.key.toLowerCase() === bondSequence[bondIndex]) {
+    bondIndex++;
+    if (bondIndex === bondSequence.length) {
+      bondIndex = 0;
+      const audio = document.getElementById('bondTheme');
+      if (audio) {
+        document.getElementById('bondEffect').style.display = 'none';
+        audio.play();
+      }
+    }
+  } else {
+    bondIndex = 0;
+  }
+});
+</script>
 </body>
 </html>
