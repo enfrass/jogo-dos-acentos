@@ -138,24 +138,39 @@
     to { transform: translateY(0); opacity: 1; }
   }
 
-  @media (max-width: 480px) {
-    .letter-box {
-      width: 42px;
-      height: 42px;
-      font-size: 22px;
-      line-height: 42px;
-    }
-
-    .accent-buttons button,
-    button {
-      font-size: 16px;
-      padding: 8px 10px;
-    }
-
-    body {
-      padding: 20px;
-    }
+@media (max-width: 480px) {
+  .letter-box {
+    width: 42px;
+    height: 42px;
+    font-size: 22px;
+    line-height: 42px;
   }
+
+  .accent-buttons button,
+  button {
+    font-size: 16px;
+    padding: 8px 10px;
+    margin-bottom: 8px;
+    display: inline-block;
+    min-width: 100px;
+  }
+
+  .accent-buttons,
+  #telaInicial button {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  body {
+    padding: 20px;
+  }
+}
+
+/* Corrige layout de botões na tela inicial */
+#telaInicial button {
+  margin: 5px;
+  min-width: 120px;
+}
 </style>
 </head>
 <body>
@@ -175,6 +190,7 @@
     <button onclick="iniciarComDificuldade('normal')">Normal</button>
     <button onclick="iniciarComDificuldade('dificil')">Difícil</button>
     <button onclick="mostrarAvisoImpossivel()">Impossível</button>
+
   </div>
   <div id="avisoImpossivel" style="display:none; text-align:center; background-color:#2a2a2a; padding:30px; border-radius:10px; margin-bottom: 20px;">
   <h2>⚠️ Modo Impossível</h2>
@@ -182,7 +198,7 @@
   <p>Você precisará descobrir a palavra original e aplicar os acentos corretamente.</p>
   <p>Essa é a dificuldade mais difícil do jogo. Tem certeza que deseja começar? </p>
   <button onclick="iniciarComDificuldade('impossivel')">✅ Sim, começar</button>
-  <button onclick="voltarTelaInicial()">🔙 Voltar</button>
+    <button onclick="voltarTelaInicial()" style="display:none; margin-top: 10px;" id='voltarInicio'>🔙 Voltar à tela inicial</button>
 </div>
 
 
@@ -209,6 +225,7 @@
     <div class="feedback" id="feedback"></div>
     <div class="score" id="score"></div>
     <div id="finalMessage"></div>
+    <button onclick="voltarTelaInicial()" id="botaoTelaInicial" style="display:none; margin-top: 10px;">⬅️ Voltar para a Tela Inicial</button>
     <button id="recomecarButton" onclick="iniciarJogo()" style="display:none; margin-top: 20px; font-size: 20px;">🔄 Recomeçar</button>
   </div>
     <audio id="clickSound" src="https://www.soundjay.com/buttons/sounds/button-37a.mp3"></audio>
@@ -220,69 +237,77 @@
   <audio id="clickSound0/5" src="https://www.myinstants.com/media/sounds/failure-sound.mp3"></audio>
   <audio id="clickSoundError" src="https://www.myinstants.com/media/sounds/app-error.mp3"></audio>
 
-
   <script>
     let todasPalavras = [];
-let palavras = [];
-let dificuldadeSelecionada = 'normal';
+    let palavras = [];
+    let dificuldadeSelecionada = 'normal';
 
-function mostrarAvisoImpossivel() {
-  document.getElementById('telaInicial').style.display = 'none';
-  document.getElementById('avisoImpossivel').style.display = 'block';
-}
+    function mostrarAvisoImpossivel() {
+      document.getElementById('telaInicial').style.display = 'none';
+      document.getElementById('avisoImpossivel').style.display = 'block';
+    }
 
-function voltarTelaInicial() {
-  document.getElementById('avisoImpossivel').style.display = 'none';
-  document.getElementById('telaInicial').style.display = 'block';
-}
+    function voltarTelaInicial() {
+    document.getElementById('telaInicial').style.display = 'block';
+    document.getElementById('gameContent').style.display = 'none';
+    document.getElementById('finalMessage').style.display = 'none';
+    document.getElementById('recomecarButton').style.display = 'none';
+    document.getElementById('voltarInicio').style.display = 'none';
+    document.getElementById('botaoTelaInicial').style.display = 'none';
 
-function iniciarComDificuldade(dificuldade) {
-  dificuldadeSelecionada = dificuldade;
-  document.getElementById('telaInicial').style.display = 'none';
-  document.getElementById('gameContent').style.display = 'block';
-  iniciarJogo();
-}
+  // limpa conteúdo visual de jogo
+  document.getElementById('letterBoxes').innerHTML = '';
+  document.getElementById('word').textContent = '';
+  document.getElementById('feedback').textContent = '';
+    }
 
-function filtrarPorDificuldade() {
-  if (dificuldadeSelecionada === 'impossivel') {
-    document.getElementById('avisoImpossivel').style.display = 'none';
-    return todasPalavras.map(p => ({
-      ...p,
-      sem: embaralhar(p.sem.split('')).join('')
-    }));
-  }
+    function iniciarComDificuldade(dificuldade) {
+      dificuldadeSelecionada = dificuldade;
+      document.getElementById('telaInicial').style.display = 'none';
+      document.getElementById('gameContent').style.display = 'block';
+      iniciarJogo();
+    }
 
-  if (dificuldadeSelecionada === 'facil') {
-    return todasPalavras.filter(p => p.sem.length <= 4);
-  }
+    function filtrarPorDificuldade() {
+      if (dificuldadeSelecionada === 'impossivel') {
+        document.getElementById('avisoImpossivel').style.display = 'none';
+        return todasPalavras.map(p => ({
+          ...p,
+          sem: embaralhar(p.sem.split('')).join('')
+        }));
+      }
 
-  if (dificuldadeSelecionada === 'normal') {
-    return todasPalavras.filter(p => p.sem.length >= 5 && p.sem.length <= 6);
-  }
+      if (dificuldadeSelecionada === 'facil') {
+        return todasPalavras.filter(p => p.sem.length <= 4);
+      }
 
-  if (dificuldadeSelecionada === 'dificil') {
-    return todasPalavras.filter(p => p.sem.length >= 7);
-  }
+      if (dificuldadeSelecionada === 'normal') {
+        return todasPalavras.filter(p => p.sem.length >= 5 && p.sem.length <= 6);
+      }
 
-  return todasPalavras;
-}
+      if (dificuldadeSelecionada === 'dificil') {
+        return todasPalavras.filter(p => p.sem.length >= 7);
+      }
 
-
-function embaralhar(array) {
-  for (let i = array.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
-  }
-  return array;
-}
+      return todasPalavras;
+    }
 
 
-fetch('palavras_portugues.json')
-  .then(res => res.json())
-  .then(data => {
-    todasPalavras = data;
-    iniciarJogo();
-  });
+    function embaralhar(array) {
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+      return array;
+    }
+
+
+    fetch('palavras_portugues.json')
+            .then(res => res.json())
+            .then(data => {
+              todasPalavras = data;
+              iniciarJogo();
+            });
 
     let current = 0;
     let acertos = 0;
@@ -300,18 +325,19 @@ fetch('palavras_portugues.json')
       document.getElementById('finalMessage').style.display = 'none';
       document.getElementById('recomecarButton').style.display = 'none';
       loadWord();
-}
+    }
 
     function showPopup(texto) {
-     const popup = document.getElementById('popup');
-     popup.textContent = texto;
-     popup.classList.add('show');
-     setTimeout(() => {
-       popup.classList.remove('show');
-      setTimeout(() => popup.style.display = 'none', 300);
-  }, 1500);
-     popup.style.display = 'block';
-}
+      const popup = document.getElementById('popup');
+      popup.textContent = texto;
+      popup.classList.add('show');
+      setTimeout(() => {
+        popup.classList.remove('show');
+        setTimeout(() => popup.style.display = 'none', 300);
+      }, 1500);
+      popup.style.display = 'block';
+    }
+
     function loadWord() {
       if (current >= palavras.length) return showFinalMessage();
       respostaConfirmada = false;
@@ -341,76 +367,76 @@ fetch('palavras_portugues.json')
       selectedIndex = index;
     }
 
-function applyAccent(acento) {
-  if (selectedIndex === null) return;
-  const boxes = document.querySelectorAll('.letter-box');
-  let letra = boxes[selectedIndex].textContent;
-  const mapa = {
-    'a': { '´': 'á', '`': 'à', '^': 'â', '~': 'ã' },
-    'e': { '´': 'é', '`': 'è', '^': 'ê' },
-    'i': { '´': 'í', '`': 'ì', '^': 'î' },
-    'o': { '´': 'ó', '`': 'ò', '^': 'ô', '~': 'õ' },
-    'u': { '´': 'ú', '`': 'ù', '^': 'û' },
-    'c': { 'ç': 'ç' }
-  };
+    function applyAccent(acento) {
+      if (selectedIndex === null) return;
+      const boxes = document.querySelectorAll('.letter-box');
+      let letra = boxes[selectedIndex].textContent;
+      const mapa = {
+        'a': {'´': 'á', '`': 'à', '^': 'â', '~': 'ã'},
+        'e': {'´': 'é', '`': 'è', '^': 'ê'},
+        'i': {'´': 'í', '`': 'ì', '^': 'î'},
+        'o': {'´': 'ó', '`': 'ò', '^': 'ô', '~': 'õ'},
+        'u': {'´': 'ú', '`': 'ù', '^': 'û'},
+        'c': {'ç': 'ç'}
+      };
 
-  // Converte letra acentuada de volta para base, se necessário
-  for (const base in mapa) {
-    for (const ac in mapa[base]) {
-      if (mapa[base][ac] === letra) letra = base;
-    }
-  }
+      // Converte letra acentuada de volta para base, se necessário
+      for (const base in mapa) {
+        for (const ac in mapa[base]) {
+          if (mapa[base][ac] === letra) letra = base;
+        }
+      }
 
-const lower = letra.toLowerCase();
-const isVogal = ['a', 'e', 'i', 'o', 'u'].includes(lower);
+      const lower = letra.toLowerCase();
+      const isVogal = ['a', 'e', 'i', 'o', 'u'].includes(lower);
 
 // ❗ Consoantes não podem receber acento
-if (!isVogal && lower !== 'c') {
-  showPopup(`A letra "${letra}" não pode receber acento.`);
-  return;
-}
+      if (!isVogal && lower !== 'c') {
+        showPopup(`A letra "${letra}" não pode receber acento.`);
+        return;
+      }
 
 // ❗ Til só pode em 'a' ou 'o'
-if (acento === '~' && !['a', 'o'].includes(lower)) {
-  showPopup(`O til (~) só pode ser usado nas letras "a" ou "o".`);
-  return;
-}
+      if (acento === '~' && !['a', 'o'].includes(lower)) {
+        showPopup(`O til (~) só pode ser usado nas letras "a" ou "o".`);
+        return;
+      }
 
 // ❗ ç só pode em 'c'
-if (acento === 'ç' && lower !== 'c') {
-  showPopup(`Não é possível adicionar "ç" na letra "${letra}"`);
-  return;
-}
+      if (acento === 'ç' && lower !== 'c') {
+        showPopup(`Não é possível adicionar "ç" na letra "${letra}"`);
+        return;
+      }
 
 
-  if (mapa[lower] && mapa[lower][acento]) {
-    boxes[selectedIndex].textContent = mapa[lower][acento];
-  }
+      if (mapa[lower] && mapa[lower][acento]) {
+        boxes[selectedIndex].textContent = mapa[lower][acento];
+      }
 
-  document.getElementById('clickSound1').play();
-}
+      document.getElementById('clickSound1').play();
+    }
 
-function removeAccent() {
-  const mapa = {
-    'á': 'a', 'à': 'a', 'â': 'a', 'ã': 'a',
-    'é': 'e', 'è': 'e', 'ê': 'e',
-    'í': 'i', 'ì': 'i', 'î': 'i',
-    'ó': 'o', 'ò': 'o', 'ô': 'o', 'õ': 'o',
-    'ú': 'u', 'ù': 'u', 'û': 'u',
-    'ç': 'c'
-  };
+    function removeAccent() {
+      const mapa = {
+        'á': 'a', 'à': 'a', 'â': 'a', 'ã': 'a',
+        'é': 'e', 'è': 'e', 'ê': 'e',
+        'í': 'i', 'ì': 'i', 'î': 'i',
+        'ó': 'o', 'ò': 'o', 'ô': 'o', 'õ': 'o',
+        'ú': 'u', 'ù': 'u', 'û': 'u',
+        'ç': 'c'
+      };
 
-  const boxes = document.querySelectorAll('.letter-box');
+      const boxes = document.querySelectorAll('.letter-box');
 
-  // Remove o acento de todas as letras
-  boxes.forEach((box, index) => {
-    const letra = box.textContent;
-    box.textContent = mapa[letra] || letra;
-  });
+      // Remove o acento de todas as letras
+      boxes.forEach((box, index) => {
+        const letra = box.textContent;
+        box.textContent = mapa[letra] || letra;
+      });
 
-  document.getElementById('clickSound').play();
-  showPopup("Todos os acentos foram removidos");
-}
+      document.getElementById('clickSound').play();
+      showPopup("Todos os acentos foram removidos");
+    }
 
     function getCurrentResposta() {
       return Array.from(document.querySelectorAll('.letter-box')).map(e => e.textContent).join('').toLowerCase();
@@ -484,39 +510,44 @@ function removeAccent() {
       respostaConfirmada = true;
     }
 
-function nextWord() {
-  current++;
-  selectedIndex = null;
-  loadWord();
-}
-
-    function showFinalMessage() {
-      document.getElementById('letterBoxes').style.display = 'none';
-      document.getElementById('accent-buttons').style.display = 'none';
-      document.getElementById('checkButton').style.display = 'none';
-      document.getElementById('nextButton').style.display = 'none';
-      document.getElementById('giveUpButton').style.display = 'none';
-      document.getElementById('feedback').style.display = 'none';
-      document.getElementById('word').textContent = "Fim de jogo!";
-      const score = acertos / palavras.length;
-      let mensagemFinal;
-      if (score === 1) {
-        mensagemFinal = "Parabéns, foi perfeito!";
-        document.getElementById('clickSound5/5').play();
-      } else if (score >= 0.6) {
-        mensagemFinal = "Você foi bem, mas precisa estudar mais!";
-        document.getElementById('clickSound4/5').play();
-      } else {
-        mensagemFinal = "Não desanime, que tal tentar novamente?";
-        document.getElementById('clickSound0/5').play();
-      }
-
-      const resumo = `\nVocê acertou ${acertos}/${palavras.length}`;
-      document.getElementById('finalMessage').textContent = mensagemFinal + resumo;
-      document.getElementById('finalMessage').style.display = 'block';
+    function nextWord() {
+      current++;
+      selectedIndex = null;
+      loadWord();
     }
 
-    document.addEventListener('keydown', function(event) {
+function showFinalMessage() {
+  document.getElementById('letterBoxes').style.display = 'none';
+  document.getElementById('accent-buttons').style.display = 'none';
+  document.getElementById('checkButton').style.display = 'none';
+  document.getElementById('nextButton').style.display = 'none';
+  document.getElementById('giveUpButton').style.display = 'none';
+  document.getElementById('feedback').style.display = 'none';
+  document.getElementById('word').textContent = "Fim de jogo!";
+
+  const score = acertos / palavras.length;
+  let mensagemFinal;
+  if (score === 1) {
+    mensagemFinal = "Parabéns, foi perfeito!";
+    document.getElementById('clickSound5/5').play();
+  } else if (score >= 0.6) {
+    mensagemFinal = "Você foi bem, mas precisa estudar mais!";
+    document.getElementById('clickSound4/5').play();
+  } else {
+    mensagemFinal = "Não desanime, que tal tentar novamente?";
+    document.getElementById('clickSound0/5').play();
+  }
+
+  const resumo = `\nVocê acertou ${acertos}/${palavras.length}`;
+  document.getElementById('finalMessage').textContent = mensagemFinal + resumo;
+  document.getElementById('finalMessage').style.display = 'block';
+  document.getElementById('recomecarButton').style.display = 'inline-block';
+  document.getElementById('botaoTelaInicial').style.display = 'inline-block';
+}
+
+document.getElementById('voltarInicio').style.display = 'inline-block';
+
+    document.addEventListener('keydown', function (event) {
       if (event.key === 'Enter') {
         if (document.getElementById('checkButton').style.display !== 'none') {
           checkAnswer();
