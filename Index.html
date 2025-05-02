@@ -216,6 +216,11 @@
 
 
   <div id="gameContent">
+    <div id="inputImpossivel" style="display:none; margin-top: 20px;">
+  <label for="campoDigitado">Digite a palavra correta:</label><br>
+      <p>       </p>
+  <input type="text" id="campoDigitado" style="padding: 10px; font-size: 18px; text-transform: lowercase;">
+</div>
   <h1>Jogo dos Acentos</h1>
   <div id="popup" class="popup">Não é possível adicionar "ç" na letra "<span id="letra-invalida"></span>"</div>
   <div class="word" id="word">carregando...</div>
@@ -256,9 +261,10 @@
     let dificuldadeSelecionada = 'normal';
 
     function mostrarAvisoImpossivel() {
-      document.getElementById('telaInicial').style.display = 'none';
-      document.getElementById('avisoImpossivel').style.display = 'block';
-    }
+  document.getElementById('telaInicial').style.display = 'none';
+  document.getElementById('avisoImpossivel').style.display = 'block';
+  document.getElementById('voltarInicio').style.display = 'inline-block';
+}
 
     function voltarTelaInicial() {
     document.getElementById('telaInicial').style.display = 'block';
@@ -267,6 +273,7 @@
     document.getElementById('recomecarButton').style.display = 'none';
     document.getElementById('voltarInicio').style.display = 'none';
     document.getElementById('botaoTelaInicial').style.display = 'none';
+    document.getElementById('avisoImpossivel').style.display = 'none';
 
   // limpa conteúdo visual de jogo
   document.getElementById('letterBoxes').innerHTML = '';
@@ -275,10 +282,11 @@
     }
 
     function iniciarComDificuldade(dificuldade) {
-      dificuldadeSelecionada = dificuldade;
-      document.getElementById('telaInicial').style.display = 'none';
-      document.getElementById('gameContent').style.display = 'block';
-      iniciarJogo();
+  dificuldadeSelecionada = dificuldade;
+  document.getElementById('telaInicial').style.display = 'none';
+  document.getElementById('avisoImpossivel').style.display = 'none';
+  document.getElementById('gameContent').style.display = 'block';
+  iniciarJogo();
     }
 
     function filtrarPorDificuldade() {
@@ -329,6 +337,7 @@
     let errouPrimeiro = false;
 
     function iniciarJogo() {
+  document.getElementById('inputImpossivel').style.display = 'none';
       palavras = filtrarPorDificuldade().sort(() => Math.random() - 0.5).slice(0, 10);
       current = 0;
       acertos = 0;
@@ -352,26 +361,41 @@
     }
 
     function loadWord() {
-      if (current >= palavras.length) return showFinalMessage();
-      respostaConfirmada = false;
-      errouPrimeiro = false;
-      const word = palavras[current].sem;
-      const container = document.getElementById('letterBoxes');
-      container.innerHTML = '';
-      for (let i = 0; i < word.length; i++) {
-        const span = document.createElement('div');
-        span.className = 'letter-box';
-        span.textContent = word[i];
-        span.addEventListener('click', () => selectLetter(i));
-        container.appendChild(span);
-      }
-      document.getElementById('word').textContent = `Palavra ${current + 1}`;
-      document.getElementById('feedback').textContent = "";
-      document.getElementById('score').textContent = "";
-      document.getElementById('checkButton').style.display = 'inline-block';
-      document.getElementById('nextButton').style.display = 'none';
-      document.getElementById('giveUpButton').style.display = 'none';
+     if (current >= palavras.length) return showFinalMessage();
+  respostaConfirmada = false;
+  errouPrimeiro = false;
+  const word = palavras[current].sem;
+  const container = document.getElementById('letterBoxes');
+  container.innerHTML = '';
+
+  if (dificuldadeSelecionada === 'impossivel') {
+    document.getElementById('word').style.marginBottom = '16px'
+    document.getElementById('word').style.fontSize = '42px';
+    document.getElementById('word').textContent = `Palavra ${current + 1}: ${word.toUpperCase()}`;
+    document.getElementById('letterBoxes').style.display = 'none';
+    document.getElementById('accent-buttons').style.display = 'none';
+    document.getElementById('inputImpossivel').style.display = 'block';
+    document.getElementById('campoDigitado').value = '';
+  } else {
+    for (let i = 0; i < word.length; i++) {
+      const span = document.createElement('div');
+      span.className = 'letter-box';
+      span.textContent = word[i];
+      span.addEventListener('click', () => selectLetter(i));
+      container.appendChild(span);
     }
+    document.getElementById('word').textContent = `Palavra ${current + 1}`;
+    document.getElementById('letterBoxes').style.display = 'flex';
+    document.getElementById('accent-buttons').style.display = 'flex';
+    document.getElementById('inputImpossivel').style.display = 'none';
+  }
+
+  document.getElementById('feedback').textContent = "";
+  document.getElementById('score').textContent = "";
+  document.getElementById('checkButton').style.display = 'inline-block';
+  document.getElementById('nextButton').style.display = 'none';
+  document.getElementById('giveUpButton').style.display = 'none';
+}
 
     function selectLetter(index) {
       document.querySelectorAll('.letter-box').forEach(box => box.classList.remove('selected'));
@@ -452,8 +476,11 @@
     }
 
     function getCurrentResposta() {
-      return Array.from(document.querySelectorAll('.letter-box')).map(e => e.textContent).join('').toLowerCase();
-    }
+  if (dificuldadeSelecionada === 'impossivel') {
+    return document.getElementById('campoDigitado').value.toLowerCase();
+  }
+  return Array.from(document.querySelectorAll('.letter-box')).map(e => e.textContent).join('').toLowerCase();
+}
 
     function clearColors() {
       document.querySelectorAll('.letter-box').forEach(box => {
@@ -462,44 +489,61 @@
     }
 
     function checkAnswer() {
-      if (respostaConfirmada) return;
-      clearColors();
-      const resposta = getCurrentResposta();
-      const corretaArray = Array.isArray(palavras[current].com) ? palavras[current].com : [palavras[current].com];
-      const boxes = document.querySelectorAll('.letter-box');
+  if (respostaConfirmada) return;
+  clearColors();
+  const resposta = getCurrentResposta();
+  const corretaArray = Array.isArray(palavras[current].com) ? palavras[current].com : [palavras[current].com];
 
-      for (let i = 0; i < boxes.length; i++) {
-        const respostaChar = resposta[i];
-        const corretaChars = corretaArray.map(c => c[i]);
-        const semAcentoChar = palavras[current].sem[i];
-
-        if (corretaChars.includes(respostaChar)) {
-          boxes[i].classList.add('correct');
-        } else if (corretaChars.some(c => c?.toLowerCase() === respostaChar?.toLowerCase())) {
-          boxes[i].classList.add('incorrect-accent');
-        } else if (respostaChar?.toLowerCase() === semAcentoChar) {
-          boxes[i].classList.add('incorrect-accent');
-        } else {
-          boxes[i].classList.add('wrong');
-        }
-      }
-
-      if (corretaArray.some(c => c.toLowerCase() === resposta)) {
-        document.getElementById('feedback').textContent = "✅ Correto!";
-        if (!errouPrimeiro) acertos++;
-        document.getElementById('clickSound2').play();
-        document.getElementById('nextButton').style.display = 'inline-block';
-        document.getElementById('checkButton').style.display = 'none';
-        document.getElementById('giveUpButton').style.display = 'none';
-        respostaConfirmada = true;
-      } else {
-        document.getElementById('feedback').textContent = "❌ Tente novamente ou clique em Desistir.";
-        document.getElementById('giveUpButton').style.display = 'inline-block';
-        errouPrimeiro = true;
-        document.getElementById('clickSoundError').play();
-      }
+  if (dificuldadeSelecionada === 'impossivel') {
+    if (corretaArray.some(c => c.toLowerCase() === resposta)) {
+      document.getElementById('feedback').textContent = "✅ Correto!";
+      if (!errouPrimeiro) acertos++;
+      document.getElementById('clickSound2').play();
+      document.getElementById('nextButton').style.display = 'inline-block';
+      document.getElementById('checkButton').style.display = 'none';
+      document.getElementById('giveUpButton').style.display = 'none';
+      respostaConfirmada = true;
+    } else {
+      document.getElementById('feedback').textContent = "❌ Tente novamente ou clique em Desistir.";
+      document.getElementById('giveUpButton').style.display = 'inline-block';
+      errouPrimeiro = true;
+      document.getElementById('clickSoundError').play();
     }
+    return;
+  }
 
+ const boxes = document.querySelectorAll('.letter-box');
+  for (let i = 0; i < boxes.length; i++) {
+    const respostaChar = resposta[i];
+    const corretaChars = corretaArray.map(c => c[i]);
+    const semAcentoChar = palavras[current].sem[i];
+
+    if (corretaChars.includes(respostaChar)) {
+      boxes[i].classList.add('correct');
+    } else if (corretaChars.some(c => c?.toLowerCase() === respostaChar?.toLowerCase())) {
+      boxes[i].classList.add('incorrect-accent');
+    } else if (respostaChar?.toLowerCase() === semAcentoChar) {
+      boxes[i].classList.add('incorrect-accent');
+    } else {
+      boxes[i].classList.add('wrong');
+    }
+  }
+
+  if (corretaArray.some(c => c.toLowerCase() === resposta)) {
+    document.getElementById('feedback').textContent = "✅ Correto!";
+    if (!errouPrimeiro) acertos++;
+    document.getElementById('clickSound2').play();
+    document.getElementById('nextButton').style.display = 'inline-block';
+    document.getElementById('checkButton').style.display = 'none';
+    document.getElementById('giveUpButton').style.display = 'none';
+    respostaConfirmada = true;
+  } else {
+    document.getElementById('feedback').textContent = "❌ Tente novamente ou clique em Desistir.";
+    document.getElementById('giveUpButton').style.display = 'inline-block';
+    errouPrimeiro = true;
+    document.getElementById('clickSoundError').play();
+  }
+}
     function giveUp() {
       clearColors();
       const corretaArray = Array.isArray(palavras[current].com) ? palavras[current].com : [palavras[current].com];
@@ -558,7 +602,7 @@ function showFinalMessage() {
   document.getElementById('botaoTelaInicial').style.display = 'inline-block';
 }
 
-document.getElementById('voltarInicio').style.display = 'inline-block';
+// document.getElementById('voltarInicio').style.display = 'inline-block';
 
     document.addEventListener('keydown', function (event) {
       if (event.key === 'Enter') {
