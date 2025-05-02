@@ -146,25 +146,38 @@
     line-height: 42px;
   }
 
-  .accent-buttons button,
-  button {
+  .accent-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 20px;
+  }
+
+  .accent-buttons button {
     font-size: 16px;
     padding: 8px 10px;
-    margin-bottom: 8px;
-    display: inline-block;
-    min-width: 100px;
+    min-width: 48px;
+    margin: 4px;
   }
 
   .accent-buttons,
   #telaInicial button {
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #telaInicial button {
+    margin: 5px;
+    min-width: 100px;
   }
 
   body {
     padding: 20px;
   }
 }
+
 
 /* Corrige layout de botões na tela inicial */
 #telaInicial button {
