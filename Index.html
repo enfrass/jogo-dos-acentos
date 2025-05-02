@@ -5,167 +5,212 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jogo dos Acentos</title>
   <style>
-    body {
-      font-family: 'Courier New', monospace;
-      background-color: #3a3a3c;
-      text-align: center;
-      color: #fff;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 40px;
-    }
+  #gameContent {
+    display: none;
+  }
+  body {
+    font-family: 'Courier New', monospace;
+    background-color: #3a3a3c;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+  }
 
-    h1 {
-      color: #fff;
-      margin-bottom: 20px;
-    }
+  .letter-boxes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 20px;
+    max-width: 90vw;
+  }
 
-    .word {
-      font-size: 26px;
-      text-align: center;
-      margin: 20px 0;
-    }
+  .letter-box {
+    width: 60px;
+    height: 60px;
+    font-size: 32px;
+    text-align: center;
+    line-height: 60px;
+    text-transform: uppercase;
+    background-color: #121213;
+    border: 2px solid #3a3a3c;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
 
-    .letter-boxes {
-      display: flex;
-      gap: 8px;
-      margin-bottom: 20px;
-    }
+  .letter-box.selected {
+    border: 5px solid #6a6b6c;
+  }
 
+  .correct {
+    background-color: #538d4e !important;
+    border-color: #538d4e !important;
+  }
+
+  .incorrect-accent {
+    background-color: #b59f3b !important;
+    border-color: #b59f3b !important;
+  }
+
+  .wrong {
+    background-color: #ff0000 !important;
+    border-color: #3a3a3c !important;
+    color: #787c7e;
+  }
+
+  .accent-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 20px;
+  }
+
+  .accent-buttons button,
+  button {
+    padding: 10px 15px;
+    border: 5px solid #565758;
+    border-radius: 5px;
+    background-color: #565758;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+
+  button:hover {
+    border: 5px solid #757778;
+  }
+
+  .feedback {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 22px;
+  }
+
+  .score {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  #finalMessage {
+    display: none;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    animation: dropIn 0.6s ease-out;
+    color: black;
+  }
+
+  #popup {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #ff0000;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 999;
+  }
+
+  #popup.show {
+    display: block;
+    opacity: 1;
+  }
+
+  @keyframes dropIn {
+    from { transform: translateY(-200px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+
+  @media (max-width: 480px) {
     .letter-box {
-      width: 60px;
-      height: 60px;
-      font-size: 32px;
-      text-align: center;
-      line-height: 60px;
-      text-transform: uppercase;
-      background-color: #121213;
-      border: 2px solid #3a3a3c;
-      border-radius: 5px;
-      color: white;
-      cursor: pointer;
-      transition: background-color 0.2s ease;
-    }
-
-    .letter-box.selected {
-      border: 5px solid #6a6b6c;
-    }
-
-    .correct {
-      background-color: #538d4e !important;
-      border-color: #538d4e !important;
-    }
-
-    .incorrect-accent {
-      background-color: #b59f3b !important;
-      border-color: #b59f3b !important;
-    }
-
-    .wrong {
-      background-color: #ff0000 !important;
-      border-color: #3a3a3c !important;
-      color: #787c7e;
-    }
-
-    .accent-buttons {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 8px;
-      margin-bottom: 20px;
+      width: 42px;
+      height: 42px;
+      font-size: 22px;
+      line-height: 42px;
     }
 
     .accent-buttons button,
     button {
-      padding: 10px 15px;
-      border: 5px solid #565758;
-      border-radius: 5px;
-      background-color: #565758;
-      color: white;
-      font-size: 18px;
-      cursor: pointer;
-      transition: background-color 0.2s ease;
+      font-size: 16px;
+      padding: 8px 10px;
     }
 
-    button:hover {
-      border: 5px solid #757778;
-
-    }
-
-    .feedback {
-      text-align: center;
-      font-weight: bold;
-      margin-top: 15px;
-      font-size: 22px;
-    }
-
-    .score {
-      text-align: center;
-      margin-top: 20px;
-    }
-
-    #finalMessage {
-      display: none;
-      text-align: center;
-      font-size: 24px;
-      font-weight: bold;
-      margin-top: 20px;
+    body {
       padding: 20px;
-      background: white;
-      border-radius: 10px;
-      animation: dropIn 0.6s ease-out;
-      color: black;
     }
-
-    #popup {
-      position: fixed;
-      bottom: 30px;
-      left: 50%;
-      transform: translateX(-50%);
-      background: #ff0000;
-      color: white;
-      padding: 10px 20px;
-      border-radius: 10px;
-      font-weight: bold;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-      opacity: 0;
-      transition: opacity 0.3s ease;
-      z-index: 999;
-    }
-
-    #popup.show {
-      display: block;
-      opacity: 1;
-    }
-
-    @keyframes dropIn {
-      from { transform: translateY(-200px); opacity: 0; }
-      to { transform: translateY(0); opacity: 1; }
-    }
-  </style>
+  }
+</style>
 </head>
 <body>
+  <div id="telaInicial" style="text-align: center;">
+    <h2>🎯 Bem-vindo ao Jogo dos Acentos!</h2>
+    <p>Você vai encarar 10 palavras – sua missão é acentuá-las corretamente! </p>
+    <p>Cada acento vale pontos, e cada erro... bem, é uma chance para aprender!</p>
+    <p>obs: cedilha (ç) também conta!</p>
+    <ul style="text-align:left; max-width: 600px; margin: auto;">
+      <li><span style="color:#538d4e; font-weight:bold;">Verde</span>: Letra correta com acento correto</li>
+      <li><span style="color:#b59f3b; font-weight:bold;">Amarelo</span>: Letra correta sem acento</li>
+      <li><span style="color:#ff0000; font-weight:bold;">Vermelho</span>: Acento incorreto</li>
+    </ul>
+      <p>⚠ Este site é melhor visualizado em um computador. ⚠</p>
+    <p>Escolha a dificuldade:</p>
+    <button onclick="iniciarComDificuldade('facil')">Fácil</button>
+    <button onclick="iniciarComDificuldade('normal')">Normal</button>
+    <button onclick="iniciarComDificuldade('dificil')">Difícil</button>
+    <button onclick="mostrarAvisoImpossivel()">Impossível</button>
+  </div>
+  <div id="avisoImpossivel" style="display:none; text-align:center; background-color:#2a2a2a; padding:30px; border-radius:10px; margin-bottom: 20px;">
+  <h2>⚠️ Modo Impossível</h2>
+  <p>Nesse modo, as palavras estarão <strong>sem acento</strong> e <strong>com as letras embaralhadas</strong>.</p>
+  <p>Você precisará descobrir a palavra original e aplicar os acentos corretamente.</p>
+  <p>Essa é a dificuldade mais difícil do jogo. Tem certeza que deseja começar? </p>
+  <button onclick="iniciarComDificuldade('impossivel')">✅ Sim, começar</button>
+  <button onclick="voltarTelaInicial()">🔙 Voltar</button>
+</div>
+
+
+  <div id="gameContent">
   <h1>Jogo dos Acentos</h1>
   <div id="popup" class="popup">Não é possível adicionar "ç" na letra "<span id="letra-invalida"></span>"</div>
   <div class="word" id="word">carregando...</div>
   <div class="letter-boxes" id="letterBoxes"></div>
   <div class="accent-buttons" id="accent-buttons">
-    <button onclick="applyAccent('´')">´</button>
-    <button onclick="applyAccent('`')">`</button>
-    <button onclick="applyAccent('^')">^</button>
-    <button onclick="applyAccent('~')">~</button>
-    <button onclick="applyAccent('ç')">ç</button>
-    <button onclick="removeAccent()">remover todos os acentos</button>
+     <button onclick="applyAccent('´')">´</button>
+      <button onclick="applyAccent('`')">`</button>
+      <button onclick="applyAccent('^')">^</button>
+      <button onclick="applyAccent('~')">~</button>
+      <button onclick="applyAccent('ç')">ç</button>
+      <button onclick="removeAccent()">remover todos os acentos</button>
+    </div>
+
+    <div style="text-align: center;">
+      <button onclick="checkAnswer()" id="checkButton">Verificar</button>
+      <button onclick="giveUp()" id="giveUpButton" style="display:none">Desistir</button>
+      <button onclick="nextWord()" id="nextButton" style="display:none">Próxima Palavra</button>
+    </div>
+
+    <div class="feedback" id="feedback"></div>
+    <div class="score" id="score"></div>
+    <div id="finalMessage"></div>
+    <button id="recomecarButton" onclick="iniciarJogo()" style="display:none; margin-top: 20px; font-size: 20px;">🔄 Recomeçar</button>
   </div>
-  <div style="text-align: center;">
-    <button onclick="checkAnswer()" id="checkButton">Verificar</button>
-    <button onclick="giveUp()" id="giveUpButton" style="display:none">Desistir</button>
-    <button onclick="nextWord()" id="nextButton" style="display:none">Próxima Palavra</button>
-  </div>
-  <div class="feedback" id="feedback"></div>
-  <div class="score" id="score"></div>
-  <div id="finalMessage"></div>
     <audio id="clickSound" src="https://www.soundjay.com/buttons/sounds/button-37a.mp3"></audio>
   <audio id="clickSound1" src="https://www.soundjay.com/buttons/sounds/button-38.mp3"></audio>
   <audio id="clickSound2" src="https://www.myinstants.com/media/sounds/correcto_Xgyp04B.mp3"></audio>
@@ -177,16 +222,66 @@
 
 
   <script>
-    // palavras temporárias, depois vamos carregar de arquivo ou API
-    let palavras = [];
+    let todasPalavras = [];
+let palavras = [];
+let dificuldadeSelecionada = 'normal';
+
+function mostrarAvisoImpossivel() {
+  document.getElementById('telaInicial').style.display = 'none';
+  document.getElementById('avisoImpossivel').style.display = 'block';
+}
+
+function voltarTelaInicial() {
+  document.getElementById('avisoImpossivel').style.display = 'none';
+  document.getElementById('telaInicial').style.display = 'block';
+}
+
+function iniciarComDificuldade(dificuldade) {
+  dificuldadeSelecionada = dificuldade;
+  document.getElementById('telaInicial').style.display = 'none';
+  document.getElementById('gameContent').style.display = 'block';
+  iniciarJogo();
+}
+
+function filtrarPorDificuldade() {
+  if (dificuldadeSelecionada === 'impossivel') {
+    document.getElementById('avisoImpossivel').style.display = 'none';
+    return todasPalavras.map(p => ({
+      ...p,
+      sem: embaralhar(p.sem.split('')).join('')
+    }));
+  }
+
+  if (dificuldadeSelecionada === 'facil') {
+    return todasPalavras.filter(p => p.sem.length <= 4);
+  }
+
+  if (dificuldadeSelecionada === 'normal') {
+    return todasPalavras.filter(p => p.sem.length >= 5 && p.sem.length <= 6);
+  }
+
+  if (dificuldadeSelecionada === 'dificil') {
+    return todasPalavras.filter(p => p.sem.length >= 7);
+  }
+
+  return todasPalavras;
+}
+
+
+function embaralhar(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
+
 
 fetch('palavras_portugues.json')
   .then(res => res.json())
   .then(data => {
-    palavras = data.sort(() => Math.random() - 0.5);
-    current = 0;
-    loadWord();
-
+    todasPalavras = data;
+    iniciarJogo();
   });
 
     let current = 0;
@@ -194,6 +289,18 @@ fetch('palavras_portugues.json')
     let selectedIndex = null;
     let respostaConfirmada = false;
     let errouPrimeiro = false;
+
+    function iniciarJogo() {
+      palavras = filtrarPorDificuldade().sort(() => Math.random() - 0.5).slice(0, 10);
+      current = 0;
+      acertos = 0;
+      document.getElementById('letterBoxes').style.display = 'flex';
+      document.getElementById('accent-buttons').style.display = 'flex';
+      document.getElementById('feedback').style.display = 'block';
+      document.getElementById('finalMessage').style.display = 'none';
+      document.getElementById('recomecarButton').style.display = 'none';
+      loadWord();
+}
 
     function showPopup(texto) {
      const popup = document.getElementById('popup');
@@ -254,12 +361,27 @@ function applyAccent(acento) {
     }
   }
 
-  const lower = letra.toLowerCase();
+const lower = letra.toLowerCase();
+const isVogal = ['a', 'e', 'i', 'o', 'u'].includes(lower);
 
-  if (acento === 'ç' && lower !== 'c') {
-    showPopup(`Não é possível adicionar "ç" na letra "${letra}"`);
-    return;
-  }
+// ❗ Consoantes não podem receber acento
+if (!isVogal && lower !== 'c') {
+  showPopup(`A letra "${letra}" não pode receber acento.`);
+  return;
+}
+
+// ❗ Til só pode em 'a' ou 'o'
+if (acento === '~' && !['a', 'o'].includes(lower)) {
+  showPopup(`O til (~) só pode ser usado nas letras "a" ou "o".`);
+  return;
+}
+
+// ❗ ç só pode em 'c'
+if (acento === 'ç' && lower !== 'c') {
+  showPopup(`Não é possível adicionar "ç" na letra "${letra}"`);
+  return;
+}
+
 
   if (mapa[lower] && mapa[lower][acento]) {
     boxes[selectedIndex].textContent = mapa[lower][acento];
@@ -354,7 +476,7 @@ function removeAccent() {
         }
       }
 
-      document.getElementById('feedback').innerHTML = `Errado. Correto: <strong>${corretaArray.join(" ou ")}</strong><br>Regra: ${palavras[current].regra}`;
+      document.getElementById('feedback').innerHTML = `Você errou!! o correto é: <strong>${corretaArray.join(" ou ")}</strong><br>Regra: ${palavras[current].regra}`;
       document.getElementById('clickSound3').play();
       document.getElementById('nextButton').style.display = 'inline-block';
       document.getElementById('giveUpButton').style.display = 'none';
