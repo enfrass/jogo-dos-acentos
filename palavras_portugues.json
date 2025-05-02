@@ -53,11 +53,6 @@
     "regra": "Oxítona terminada em 'es' leva acento."
   },
   {
-    "sem": "porta",
-    "com": "porta",
-    "regra": "Paroxítona terminada em 'a' não leva acento."
-  },
-  {
     "sem": "irmao",
     "com": "irmão",
     "regra": "Oxítona terminada em 'ão' leva acento."
