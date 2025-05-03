@@ -480,11 +480,6 @@
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "voo",
-    "com": "vôo",
-    "regra": "Monossílabo tônico → terminado em -a, -e ou -o leva acento"
-  },
-  {
     "sem": "bonus",
     "com": "bônus",
     "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
@@ -704,11 +699,11 @@
     "com": "gêmeos",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
-  {
+   {
     "sem": "vo",
-    "com": "vô",
+    "com": ["vô", "vô"],
     "regra": "Monossílabo tônico → terminado em -a, -e ou -o leva acento"
-  },
+},
   {
     "sem": "jupiter",
     "com": "júpiter",
