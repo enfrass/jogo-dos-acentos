@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <title>Jogo dos Acentuação | Jogo de acentuar</title>
   <meta name="description" content="Teste seus conhecimentos na nova ortografia! Escolha a forma correta de acentuar palavras aprendendo brincando com o Jogo da Acentuação!!">
   <!-- Google tag (gtag.js) -->
@@ -15,11 +16,51 @@
   <!-- Google adds -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6216475511604877"
      crossorigin="anonymous"></script>
-  
+
   <link rel="icon" href="logo.png" sizes="64x64" type="image/png">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
+
+    .gear-btn {
+      position: absolute;
+    top: 50px;
+    right: 100px;
+    font-size: 45px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#settings-menu {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #474747;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  color: white;
+}
+
+#fullscreen-btn {
+    margin-top: 0px;
+    padding: 10px 10px;
+}
+
+#volume-icon {
+    font-size: 24px; /* tamanho do ícone */
+    margin-right: 3px; /* espaçamento entre o ícone e a barra de volume */
+    vertical-align: middle;
+    transition: color 0.2s ease;
+}
+
+#volume-control {
+    vertical-align: middle;
+}
+
   #gameContent {
     display: none;
   }
@@ -225,6 +266,7 @@
     <p>Você vai encarar 10 palavras – sua missão é acentuá-las corretamente! </p>
     <p>Cada acento vale pontos, e cada erro... bem, é uma chance para aprender!</p>
     <p>obs: cedilha (ç) também conta!</p>
+    <p>ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</p>
     <ul style="text-align:left; max-width: 600px; margin: auto;">
       <li><span style="color:#538d4e; font-weight:bold;">Verde</span>: Letra correta com acento correto</li>
       <li><span style="color:#b59f3b; font-weight:bold;">Amarelo</span>: Letra correta sem acento</li>
@@ -245,6 +287,17 @@
   <p>Essa é a dificuldade mais difícil do jogo. Tem certeza que deseja começar? </p>
   <button onclick="iniciarComDificuldade('impossivel')">✅ Sim, começar</button>
     <button onclick="voltarTelaInicial()" style="display:none; margin-top: 10px;" id='voltarInicio'>🔙 Voltar à tela inicial</button>
+</div>
+  <button id="settings-btn" class="gear-btn">
+    <i class="fa fa-cog"></i> <!-- Ícone de engrenagem -->
+</button>
+
+<div id="settings-menu" style="display: none;">
+    <label for="volume-control">
+        <i id="volume-icon" class="fas fa-volume-up"></i>
+    </label>
+    <input type="range" id="volume-control" min="0" max="1" step="0.01" value="1">
+    <button id="fullscreen-btn">Tela Cheia</button>
 </div>
 
 
@@ -298,6 +351,110 @@
     let palavras = [];
     let dificuldadeSelecionada = 'normal';
 
+// Agrupar todos os áudios em um array
+const audios = [
+    document.getElementById('clickSound'),
+    document.getElementById('clickSound1'),
+    document.getElementById('clickSound2'),
+    document.getElementById('clickSound3'),
+    document.getElementById('clickSound5/5'),
+    document.getElementById('clickSound4/5'),
+    document.getElementById('clickSound0/5'),
+    document.getElementById('clickSoundError'),
+    document.getElementById('bondTheme')
+];
+
+// Botão para abrir/fechar o menu de configurações
+const settingsBtn = document.getElementById('settings-btn');
+const settingsMenu = document.getElementById('settings-menu');
+
+settingsBtn.addEventListener('click', (e) => {
+    e.stopPropagation(); // Evita que o clique no botão de configurações feche o jogo ou interfira em outros elementos
+    settingsMenu.style.display = settingsMenu.style.display === 'none' ? 'block' : 'none';
+});
+
+// Controlar o volume de todos os áudios
+const volumeControl = document.getElementById('volume-control');
+const volumeIcon = document.getElementById('volume-icon');
+
+function updateVolumeIcon(volume) {
+    if (volume == 0) {
+        volumeIcon.className = 'fas fa-volume-mute';
+    } else if (volume < 0.3) {
+        volumeIcon.className = 'fas fa-volume-off';
+    } else if (volume < 0.6) {
+        volumeIcon.className = 'fas fa-volume-down';
+    } else {
+        volumeIcon.className = 'fas fa-volume-up';
+    }
+}
+
+// Inicializa o volume e o ícone
+audios.forEach(audio => audio.volume = volumeControl.value);
+updateVolumeIcon(volumeControl.value);
+
+// Atualiza o volume e o ícone quando o usuário mexer no slider
+volumeControl.addEventListener('input', (e) => {
+    const volume = parseFloat(e.target.value);
+    audios.forEach(audio => audio.volume = volume);
+    updateVolumeIcon(volume);
+});
+
+
+// Inicializa o volume de todos os áudios
+audios.forEach(audio => audio.volume = volumeControl.value);
+
+// Ajusta o volume de todos os áudios quando o controle for movido
+volumeControl.addEventListener('input', (e) => {
+    audios.forEach(audio => {
+        audio.volume = e.target.value;  // Ajusta o volume de cada áudio
+    });
+});
+
+// Tela cheia
+const fullscreenBtn = document.getElementById('fullscreen-btn');
+
+fullscreenBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+
+    if (
+        document.fullscreenElement ||
+        document.webkitFullscreenElement ||
+        document.mozFullScreenElement ||
+        document.msFullscreenElement
+    ) {
+        // Sair do modo tela cheia
+        if (document.exitFullscreen) {
+            document.exitFullscreen();
+        } else if (document.webkitExitFullscreen) {
+            document.webkitExitFullscreen();
+        } else if (document.mozCancelFullScreen) {
+            document.mozCancelFullScreen();
+        } else if (document.msExitFullscreen) {
+            document.msExitFullscreen();
+        }
+    } else {
+        // Entrar no modo tela cheia
+        const element = document.documentElement;
+        if (element.requestFullscreen) {
+            element.requestFullscreen();
+        } else if (element.webkitRequestFullscreen) {
+            element.webkitRequestFullscreen();
+        } else if (element.mozRequestFullScreen) {
+            element.mozRequestFullScreen();
+        } else if (element.msRequestFullscreen) {
+            element.msRequestFullscreen();
+        }
+    }
+});
+
+// Evitar que o menu de configurações feche o jogo ao clicar fora
+document.addEventListener('click', (e) => {
+    if (!settingsMenu.contains(e.target) && !settingsBtn.contains(e.target)) {
+        settingsMenu.style.display = 'none';
+    }
+});
+
     function mostrarAvisoImpossivel() {
   document.getElementById('telaInicial').style.display = 'none';
   document.getElementById('avisoImpossivel').style.display = 'block';
@@ -326,7 +483,7 @@
   document.getElementById('telaInicial').style.display = 'none';
   document.getElementById('avisoImpossivel').style.display = 'none';
   document.getElementById('gameContent').style.display = 'block';
-  iniciarJogo();
+  iniciarJogo()
     }
 
     function filtrarPorDificuldade() {
@@ -362,12 +519,11 @@
       return array;
     }
 
-
-    fetch('palavras_portugues.json')
+        fetch('palavras_portugues.json')
             .then(res => res.json())
             .then(data => {
               todasPalavras = data;
-              iniciarJogo();
+
             });
 
     let current = 0;
@@ -675,3 +831,5 @@ document.addEventListener('keydown', function (e) {
 </script>
 </body>
 </html>
+
+
