@@ -23,12 +23,11 @@
   <style>
 
     .gear-btn {
-      position: absolute;
-    top: 50px;
-    right: 100px;
+   position: fixed;
+  top: 85%;
+  left: 70%;
     font-size: 45px;
     background-color: transparent;
-    border: none;
     cursor: pointer;
 }
 
@@ -46,7 +45,6 @@
 }
 
 #fullscreen-btn {
-    margin-top: 0px;
     padding: 10px 10px;
 }
 
@@ -240,24 +238,6 @@
   margin: 5px;
   min-width: 120px;
 }
-@keyframes fadeInRed {
-    0% { opacity: 0; }
-    30% { opacity: 0.2; }
-    60% { opacity: 0.5; }
-    85% { opacity: 0.8; }
-    100% { opacity: 1; }
-  }
-
-  #bondShot {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #a00000;
-    z-index: 10000;
-    opacity: 0;
-  }
 </style>
 </head>
 <body>
@@ -296,8 +276,17 @@
     <label for="volume-control">
         <i id="volume-icon" class="fas fa-volume-up"></i>
     </label>
-    <input type="range" id="volume-control" min="0" max="1" step="0.01" value="1">
+    <input type="range" id="volume-control" min="0" max="1" step="0.1" value="1">
     <button id="fullscreen-btn">Tela Cheia</button>
+<p onclick="location.href='objetivo.html'" style="color: white; background-color: transparent; border: 1px solid white; padding: 5px 10px; cursor: pointer;">
+  Objetivo do Jogo
+</p>
+  <p onclick="location.href='termos.html'" style="color: white; background-color: transparent; border: 1px solid white; padding: 5px 10px; cursor: pointer;">
+  Termos de Uso
+</p>
+    <p onclick="location.href='privacidade.html'" style="color: white; background-color: transparent; border: 1px solid white; padding: 5px 10px; cursor: pointer;">
+  Política de Privacidade
+</p>
 </div>
 
 
@@ -333,10 +322,6 @@
     <button id="recomecarButton" onclick="iniciarJogo()" style="display:none; margin-top: 20px; font-size: 20px;">🔄 Recomeçar</button>
   </div>
   <audio id="bondTheme" src="https://www.myinstants.com/media/sounds/007-james-bond-theme_TZToRFY.mp3"></audio>
-  <div id="bondEffect" style="display:none; opacity: 0; pointer-events: none; position:fixed; top:0; left:0; width:100%; height:100%; background:black; z-index:9999; display:flex; align-items:center; justify-content:center;">
-    <img src="https://thegraphicalcloud.files.wordpress.com/2014/10/gunbarrel-01.png" style="width:100%; height:100%; object-fit:cover;">
-  </div>
-  <div id="bondShot" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:#a00000; z-index:9998; opacity: 0;"></div>
     <audio id="clickSound" src="https://www.soundjay.com/buttons/sounds/button-37a.mp3"></audio>
   <audio id="clickSound1" src="https://www.soundjay.com/buttons/sounds/button-38.mp3"></audio>
   <audio id="clickSound2" src="https://www.myinstants.com/media/sounds/correcto_Xgyp04B.mp3"></audio>
@@ -378,7 +363,7 @@ const volumeControl = document.getElementById('volume-control');
 const volumeIcon = document.getElementById('volume-icon');
 
 function updateVolumeIcon(volume) {
-    if (volume == 0) {
+    if (volume === 0) {
         volumeIcon.className = 'fas fa-volume-mute';
     } else if (volume < 0.3) {
         volumeIcon.className = 'fas fa-volume-off';
@@ -831,5 +816,4 @@ document.addEventListener('keydown', function (e) {
 </script>
 </body>
 </html>
-
 
