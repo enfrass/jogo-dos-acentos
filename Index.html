@@ -23,14 +23,11 @@
   <style>
 
     .gear-btn {
-   position: fixed;
-  top: 85%;
-  left: 70%;
+   vertical-align: middle;
     font-size: 45px;
     background-color: transparent;
     cursor: pointer;
 }
-
 #settings-menu {
   position: fixed;
   top: 50%;
@@ -42,6 +39,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   z-index: 1000;
   color: white;
+  min-width: 350px;
 }
 
 #fullscreen-btn {
@@ -195,7 +193,7 @@
 @media (max-width: 480px) {
   .letter-box {
     width: 32px;
-    height: 22px;
+    height: 32px;
     font-size: 22px;
     line-height: 32px;
   }
@@ -816,4 +814,5 @@ document.addEventListener('keydown', function (e) {
 </script>
 </body>
 </html>
+
 
