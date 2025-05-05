@@ -1,497 +1,37 @@
 [
   {
-    "sem": "arvore",
-    "com": "árvore",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "passaro",
-    "com": "pássaro",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "facil",
-    "com": "fácil",
+    "sem": "imprescindivel",
+    "com": "imprescindível",
     "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
   },
   {
-    "sem": "dificil",
-    "com": "difícil",
-    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
-  },
-  {
-    "sem": "lapis",
-    "com": "lápis",
-    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
-  },
-  {
-    "sem": "juri",
-    "com": "júri",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "formula",
-    "com": "fórmula",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "ceu",
-    "com": "céu",
-    "regra": "Oxítona → terminada em ditongo aberto (-éu, -éi, -ói), leva acento na última sílaba"
-  },
-  {
-    "sem": "razao",
-    "com": "razão",
-    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
-  },
-  {
-    "sem": "educacao",
-    "com": "educação",
-    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
-  },
-  {
-    "sem": "relacao",
-    "com": "relação",
-    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
-  },
-  {
-    "sem": "emocao",
-    "com": "emoção",
-    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
-  },
-  {
-    "sem": "reuniao",
-    "com": "reunião",
-    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
-  },
-  {
-    "sem": "acucar",
-    "com": "açúcar",
-    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
-  },
-  {
-    "sem": "coracao",
-    "com": "coração",
-    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
-  },
-  {
-    "sem": "cancao",
-    "com": "canção",
-    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
-  },
-  {
-    "sem": "cafe",
-    "com": "café",
-    "regra": "Oxítona → terminada em -a(s), -e(s) ou -o(s), leva acento na última sílaba"
-  },
-  {
-    "sem": "bebe",
-    "com": "bebê",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "fenix",
-    "com": "fênix",
-    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
-  },
-  {
-    "sem": "animo",
-    "com": "ânimo",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "comico",
-    "com": "cômico",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "publico",
-    "com": "público",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "timido",
-    "com": "tímido",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "bencao",
-    "com": "bênção",
-    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
-  },
-  {
-    "sem": "orgao",
-    "com": "órgão",
-    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
-  },
-  {
-    "sem": "limitrofe",
-    "com": "limítrofe",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "pode",
-    "com": "pôde",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "por",
-    "com": "pôr",
-    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
-  },
-  {
-    "sem": "so",
-    "com": "só",
-    "regra": "Monossílabo tônico → terminado em -a, -e ou -o leva acento"
-  },
-  {
-    "sem": "ja",
-    "com": "já",
-    "regra": "Monossílabo tônico → terminado em -a, -e ou -o leva acento"
-  },
-  {
-    "sem": "volei",
-    "com": "vôlei",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "heroi",
-    "com": "herói",
-    "regra": "Oxítona → terminada em ditongo aberto (-éu, -éi, -ói), leva acento na última sílaba"
-  },
-  {
-    "sem": "aneis",
-    "com": "anéis",
-    "regra": "Oxítona → terminada em ditongo aberto (-éu, -éi, -ói), leva acento na última sílaba"
-  },
-  {
-    "sem": "fieis",
-    "com": "fiéis",
-    "regra": "Oxítona → terminada em ditongo aberto (-éu, -éi, -ói), leva acento na última sílaba"
-  },
-  {
-    "sem": "cerebros",
-    "com": "cérebros",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "serias",
-    "com": "sérias",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "pes",
-    "com": "pés",
-    "regra": "Oxítona → terminada em -a(s), -e(s) ou -o(s), leva acento na última sílaba"
-  },
-  {
-    "sem": "dolar",
-    "com": "dólar",
-    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
-  },
-  {
-    "sem": "fregues",
-    "com": "freguês",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "furia",
-    "com": "fúria",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "magoa",
-    "com": "mágoa",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "tenis",
-    "com": "tênis",
-    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
-  },
-  {
-    "sem": "jubilo",
-    "com": "júbilo",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "funebre",
-    "com": "fúnebre",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "subito",
-    "com": "súbito",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "pascoa",
-    "com": "páscoa",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "musica",
-    "com": "música",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "unico",
-    "com": "único",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "otimo",
-    "com": "ótimo",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "medico",
-    "com": "médico",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "politica",
-    "com": "política",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "maquina",
-    "com": "máquina",
+    "sem": "dicionario",
+    "com": "dicionário",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "missil",
-    "com": "míssil",
-    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
-  },
-  {
-    "sem": "cumplice",
-    "com": "cúmplice",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "principe",
-    "com": "príncipe",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "tragico",
-    "com": "trágico",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "fosforo",
-    "com": "fósforo",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "folego",
-    "com": "fôlego",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "sumula",
-    "com": "súmula",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "genero",
-    "com": "gênero",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "higienico",
-    "com": "higiênico",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "vitima",
-    "com": "vítima",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "indice",
-    "com": "índice",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "alcool",
-    "com": "álcool",
-    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
-  },
-  {
-    "sem": "pilula",
-    "com": "pílula",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "idolo",
-    "com": "ídolo",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "ancora",
-    "com": "âncora",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "intimo",
-    "com": "íntimo",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "biquini",
-    "com": "biquíni",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "aereo",
-    "com": "aéreo",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "historia",
-    "com": "história",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "maximo",
-    "com": "máximo",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "minimo",
-    "com": "mínimo",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "fragil",
-    "com": "frágil",
-    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
-  },
-  {
-    "sem": "cubico",
-    "com": "cúbico",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "pessego",
-    "com": "pêssego",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "estomago",
-    "com": "estômago",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "espatula",
-    "com": "espátula",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "arduo",
-    "com": "árduo",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "marmore",
-    "com": "mármore",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "icone",
-    "com": "ícone",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "toxico",
-    "com": "tóxico",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "epico",
-    "com": "épico",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "termino",
-    "com": "término",
+    "sem": "aurelio",
+    "com": "aurélio",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "magico",
-    "com": "mágico",
+    "sem": "resiliencia",
+    "com": "resiliência",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "ritmico",
-    "com": "rítmico",
+    "sem": "conjuge",
+    "com": "cônjuge",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "logico",
-    "com": "lógico",
+    "sem": "reciproco",
+    "com": "recíproco",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "forceps",
-    "com": "fórceps",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "biblico",
-    "com": "bíblico",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "solido",
-    "com": "sólido",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "agil",
-    "com": "ágil",
-    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
-  },
-  {
-    "sem": "plastico",
-    "com": "plástico",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "mecanico",
-    "com": "mecânico",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "eletrico",
-    "com": "elétrico",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "termico",
-    "com": "térmico",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "mistico",
-    "com": "místico",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "bonus",
-    "com": "bônus",
-    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
-  },
-  {
-    "sem": "onibus",
-    "com": "ônibus",
-    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
   },
   {
-    "sem": "exito",
-    "com": "êxito",
+    "sem": "intrinseco",
+    "com": "intrínseco",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
@@ -500,328 +40,313 @@
     "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
   },
   {
-    "sem": "nivel",
-    "com": "nível",
-    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
-  },
-  {
-    "sem": "sudito",
-    "com": "súdito",
+    "sem": "efemero",
+    "com": "efêmero",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "humus",
-    "com": "húmus",
-    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
-  },
-  {
-    "sem": "especie",
-    "com": "espécie",
+    "sem": "diligencia",
+    "com": "diligência",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "serie",
-    "com": "série",
+    "sem": "cinico",
+    "com": "cínico",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "tunel",
-    "com": "túnel",
-    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
-  },
-  {
-    "sem": "tenue",
-    "com": "tênue",
+    "sem": "anuencia",
+    "com": "anuência",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "pifio",
-    "com": "pífio",
+    "sem": "intemperie",
+    "com": "intempérie",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "debil",
-    "com": "débil",
-    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
-  },
-  {
-    "sem": "despota",
-    "com": "déspota",
+    "sem": "idoneo",
+    "com": "idôneo",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "epoca",
-    "com": "época",
+    "sem": "condolencias",
+    "com": "condolências",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "etica",
-    "com": "ética",
+    "sem": "escrupulo",
+    "com": "escrúpulo",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "etica",
-    "com": "ética",
+    "sem": "contemporaneo",
+    "com": "contemporâneo",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "poster",
-    "com": "pôster",
-    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
-  },
-  {
-    "sem": "comodo",
-    "com": "cômodo",
+    "sem": "superfluo",
+    "com": "supérfluo",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "pode",
-    "com": "pôde",
+    "sem": "idilico",
+    "com": "idílico",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "solida",
-    "com": "sólida",
+    "sem": "ambito",
+    "com": "âmbito",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "impar",
-    "com": "ímpar",
-    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
-  },
-  {
-    "sem": "lampada",
-    "com": "lâmpada",
+    "sem": "proposito",
+    "com": "propósito",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "tropego",
-    "com": "trôpego",
+    "sem": "analogo",
+    "com": "análogo",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "mutuo",
-    "com": "mútuo",
+    "sem": "familia",
+    "com": "família",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "duvida",
-    "com": "dúvida",
+    "sem": "parcimonia",
+    "com": "parcimônia",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "cantaro",
-    "com": "cântaro",
+    "sem": "genuino",
+    "com": "genuíno",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "gravida",
-    "com": "grávida",
+    "sem": "essencia",
+    "com": "essência",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "valvula",
-    "com": "válvula",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "obvio",
-    "com": "óbvio",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "sudito",
-    "com": "súdito",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "acude",
-    "com": "açude",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "impar",
-    "com": "ímpar",
-    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
-  },
-  {
-    "sem": "dizimo",
-    "com": "dízimo",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "vomito",
-    "com": "vômito",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "abaco",
-    "com": "ábaco",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "publicos",
-    "com": "públicos",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "serias",
-    "com": "sérias",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "magicas",
-    "com": "mágicas",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "misticas",
-    "com": "místicas",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "rustico",
-    "com": "rústico",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "umido",
-    "com": "úmido",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "logico",
-    "com": "lógico",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "gemeos",
-    "com": "gêmeos",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-   {
-    "sem": "vo",
-    "com": ["vô", "vô"],
-    "regra": "Monossílabo tônico → terminado em -a, -e ou -o leva acento"
-},
-  {
-    "sem": "jupiter",
-    "com": "júpiter",
-    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
-  },
-  {
-    "sem": "ambar",
-    "com": "âmbar",
-    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
-  },
-  {
-    "sem": "tatil",
-    "com": "tátil",
-    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
-  },
-  {
-    "sem": "biblia",
-    "com": "bíblia",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "solido",
-    "com": "sólido",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "cocegas",
-    "com": "cócegas",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "nectar",
-    "com": "néctar",
-    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
-  },
-  {
-    "sem": "ebrio",
-    "com": "ébrio",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "mumia",
-    "com": "múmia",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "acido",
-    "com": "ácido",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "epico",
-    "com": "épico",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "gas",
-    "com": "gás",
+    "sem": "vies",
+    "com": "viés",
     "regra": "Oxítona → terminada em -a(s), -e(s) ou -o(s), leva acento na última sílaba"
   },
   {
-    "sem": "torax",
-    "com": "tórax",
+    "sem": "voce",
+    "com": "você",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "hipocrita",
+    "com": "hipócrita",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "estoria",
+    "com": "estória",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "nescio",
+    "com": "néscio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "misogino",
+    "com": "misógino",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "referencia",
+    "com": "referência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "implicito",
+    "com": "implícito",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "corolario",
+    "com": "corolário",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "indole",
+    "com": "índole",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "complacencia",
+    "com": "complacência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "amago",
+    "com": "âmago",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "empirico",
+    "com": "empírico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "inexoravel",
+    "com": "inexorável",
     "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
   },
   {
-    "sem": "martir",
-    "com": "mártir",
+    "sem": "pragmatico",
+    "com": "pragmático",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "peremptorio",
+    "com": "peremptório",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "concupiscencia",
+    "com": "concupiscência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "caracteristica",
+    "com": "característica",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "esdruxulo",
+    "com": "esdrúxulo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "altruismo",
+    "com": "altruísmo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "exito",
+    "com": "êxito",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "pesames",
+    "com": "pêsames",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "inocuo",
+    "com": "inócuo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "condescendencia",
+    "com": "condescendência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "convem",
+    "com": "convém",
+    "regra": "Oxítona → terminada em -em ou -ens, leva acento na última sílaba"
+  },
+  {
+    "sem": "altruista",
+    "com": "altruísta",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "apatico",
+    "com": "apático",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "discrepancia",
+    "com": "discrepância",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "perspicacia",
+    "com": "perspicácia",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "hermetico",
+    "com": "hermético",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "lascivia",
+    "com": "lascívia",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "extraordinario",
+    "com": "extraordinário",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "prodigio",
+    "com": "prodígio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "prodigo",
+    "com": "pródigo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "arbitrario",
+    "com": "arbitrário",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "aleatorio",
+    "com": "aleatório",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "astucia",
+    "com": "astúcia",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "passivel",
+    "com": "passível",
     "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
   },
   {
-    "sem": "lucido",
-    "com": "lúcido",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "ingreme",
-    "com": "íngreme",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "femur",
-    "com": "fêmur",
+    "sem": "inefavel",
+    "com": "inefável",
     "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
   },
   {
-    "sem": "tecnico",
-    "com": "técnico",
+    "sem": "promiscuo",
+    "com": "promíscuo",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "panico",
-    "com": "pânico",
+    "sem": "etica",
+    "com": "ética",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "minimos",
-    "com": "mínimos",
+    "sem": "sadico",
+    "com": "sádico",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "funebres",
-    "com": "fúnebres",
+    "sem": "circunstancia",
+    "com": "circunstância",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "tragicas",
-    "com": "trágicas",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "habito",
-    "com": "hábito",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "lingua",
-    "com": "língua",
+    "sem": "audacia",
+    "com": "audácia",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
@@ -830,403 +355,128 @@
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "amago",
-    "com": "âmago",
+    "sem": "subterfugio",
+    "com": "subterfúgio",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "docil",
-    "com": "dócil",
+    "sem": "beneplacito",
+    "com": "beneplácito",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "iconico",
+    "com": "icônico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "sapiencia",
+    "com": "sapiência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "indelevel",
+    "com": "indelével",
     "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
   },
   {
-    "sem": "magoas",
-    "com": "mágoas",
+    "sem": "experiencia",
+    "com": "experiência",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "liquido",
-    "com": "líquido",
+    "sem": "modestia",
+    "com": "modéstia",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "medica",
-    "com": "médica",
+    "sem": "de",
+    "com": "dê",
+    "regra": "Monossílabo tônico → terminado em -a, -e ou -o leva acento"
+  },
+  {
+    "sem": "consequencia",
+    "com": "consequência",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "martires",
-    "com": "mártires",
+    "sem": "merito",
+    "com": "mérito",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "musicas",
-    "com": "músicas",
+    "sem": "inospito",
+    "com": "inóspito",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "logicas",
-    "com": "lógicas",
+    "sem": "mediocre",
+    "com": "medíocre",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "fisica",
-    "com": "física",
+    "sem": "morbido",
+    "com": "mórbido",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "mecanica",
-    "com": "mecânica",
+    "sem": "retorica",
+    "com": "retórica",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "biologica",
-    "com": "biológica",
+    "sem": "monotono",
+    "com": "monótono",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "sociologica",
-    "com": "sociológica",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "tecnica",
-    "com": "técnica",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "mitica",
-    "com": "mítica",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "higienica",
-    "com": "higiênica",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "civica",
-    "com": "cívica",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "critica",
-    "com": "crítica",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "epicas",
-    "com": "épicas",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "publicas",
-    "com": "públicas",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "minimas",
-    "com": "mínimas",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "magicas",
-    "com": "mágicas",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "pontico",
-    "com": "pôntico",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "debitos",
-    "com": "débitos",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "obvia",
-    "com": "óbvia",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "biblica",
-    "com": "bíblica",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "unica",
-    "com": "única",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "hostia",
-    "com": "hóstia",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "marmore",
-    "com": "mármore",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "lamina",
-    "com": "lâmina",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "neutron",
-    "com": "nêutron",
+    "sem": "estavel",
+    "com": "estável",
     "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
   },
   {
-    "sem": "otica",
-    "com": "ótica",
+    "sem": "cetico",
+    "com": "cético",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "otica",
-    "com": "ótica",
+    "sem": "incidencia",
+    "com": "incidência",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "matematica",
-    "com": "matemática",
+    "sem": "historia",
+    "com": "história",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "pratica",
-    "com": "prática",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "mistica",
-    "com": "mística",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "gastrica",
-    "com": "gástrica",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "logica",
-    "com": "lógica",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "publica",
-    "com": "pública",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "acida",
-    "com": "ácida",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "toxica",
-    "com": "tóxica",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "comica",
-    "com": "cômica",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "tipica",
-    "com": "típica",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "mitica",
-    "com": "mítica",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "unicas",
-    "com": "únicas",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "solidas",
-    "com": "sólidas",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "humidas",
-    "com": "húmidas",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "timidas",
-    "com": "tímidas",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "obvias",
-    "com": "óbvias",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "limpidas",
-    "com": "límpidas",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "bronquios",
-    "com": "brônquios",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "mumias",
-    "com": "múmias",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "epicas",
-    "com": "épicas",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "goticos",
-    "com": "góticos",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "goticas",
-    "com": "góticas",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "comicos",
-    "com": "cômicos",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "comicas",
-    "com": "cômicas",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "horrifico",
-    "com": "horrífico",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "genese",
-    "com": "gênese",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "juri",
-    "com": "júri",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "transito",
-    "com": "trânsito",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "animo",
-    "com": "ânimo",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "amago",
-    "com": "âmago",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "exodo",
-    "com": "êxodo",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "orbita",
-    "com": "órbita",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "textil",
-    "com": "têxtil",
+    "sem": "suscetivel",
+    "com": "suscetível",
     "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
   },
   {
-    "sem": "moveis",
-    "com": "móveis",
-    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+    "sem": "ceu",
+    "com": "céu",
+    "regra": "Oxítona → terminada em ditongo aberto (-éu, -éi, -ói), leva acento na última sílaba"
   },
   {
-    "sem": "posteres",
-    "com": "pôsteres",
+    "sem": "sinonimo",
+    "com": "sinônimo",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "arduas",
-    "com": "árduas",
+    "sem": "perfidia",
+    "com": "perfídia",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "sumulas",
-    "com": "súmulas",
+    "sem": "conveniencia",
+    "com": "conveniência",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "pifias",
-    "com": "pífias",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "tecnicas",
-    "com": "técnicas",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "especies",
-    "com": "espécies",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "pores",
-    "com": "pôres",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "vitimas",
-    "com": "vítimas",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "replicas",
-    "com": "réplicas",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "jubilos",
-    "com": "júbilos",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "lugubre",
-    "com": "lúgubre",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "mutuas",
-    "com": "mútuas",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "biblicas",
-    "com": "bíblicas",
-    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
-  },
-  {
-    "sem": "integras",
-    "com": "íntegras",
+    "sem": "consonancia",
+    "com": "consonância",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
@@ -1235,113 +485,4493 @@
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "indices",
-    "com": "índices",
+    "sem": "tenue",
+    "com": "tênue",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "idolos",
-    "com": "ídolos",
+    "sem": "prudencia",
+    "com": "prudência",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "icones",
-    "com": "ícones",
+    "sem": "luxuria",
+    "com": "luxúria",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "uteis",
-    "com": "úteis",
+    "sem": "eminencia",
+    "com": "eminência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "hetero",
+    "com": "hétero",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "benevolencia",
+    "com": "benevolência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "mutua",
+    "com": "mútua",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "excentrico",
+    "com": "excêntrico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "fleumatico",
+    "com": "fleumático",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "metodico",
+    "com": "metódico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "anatema",
+    "com": "anátema",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "contingencia",
+    "com": "contingência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "criterio",
+    "com": "critério",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "cliche",
+    "com": "clichê",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "amalgama",
+    "com": "amálgama",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "imensuravel",
+    "com": "imensurável",
     "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
   },
   {
-    "sem": "generos",
-    "com": "gêneros",
+    "sem": "ordinario",
+    "com": "ordinário",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "intimos",
-    "com": "íntimos",
+    "sem": "escoria",
+    "com": "escória",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "epicos",
-    "com": "épicos",
+    "sem": "eclesiastico",
+    "com": "eclesiástico",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "misticos",
-    "com": "místicos",
+    "sem": "explicito",
+    "com": "explícito",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "ritmicos",
-    "com": "rítmicos",
+    "sem": "anacronico",
+    "com": "anacrônico",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "goticos",
-    "com": "góticos",
+    "sem": "analitico",
+    "com": "analítico",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "toxicos",
-    "com": "tóxicos",
+    "sem": "escarnio",
+    "com": "escárnio",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "cinicos",
-    "com": "cínicos",
+    "sem": "eximio",
+    "com": "exímio",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "higienicos",
-    "com": "higiênicos",
+    "sem": "aquem",
+    "com": "aquém",
+    "regra": "Oxítona → terminada em -em ou -ens, leva acento na última sílaba"
+  },
+  {
+    "sem": "afavel",
+    "com": "afável",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "notivago",
+    "com": "notívago",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "plasticos",
-    "com": "plásticos",
+    "sem": "exequivel",
+    "com": "exequível",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "escrutinio",
+    "com": "escrutínio",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "logicos",
-    "com": "lógicos",
+    "sem": "porem",
+    "com": "porém",
+    "regra": "Oxítona → terminada em -em ou -ens, leva acento na última sílaba"
+  },
+  {
+    "sem": "excelencia",
+    "com": "excelência",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "publicos",
-    "com": "públicos",
+    "sem": "dadiva",
+    "com": "dádiva",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "timidos",
-    "com": "tímidos",
+    "sem": "tambem",
+    "com": "também",
+    "regra": "Oxítona → terminada em -em ou -ens, leva acento na última sílaba"
+  },
+  {
+    "sem": "autoctone",
+    "com": "autóctone",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "eticos",
-    "com": "éticos",
+    "sem": "ingerencia",
+    "com": "ingerência",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "medicos",
-    "com": "médicos",
+    "sem": "indolencia",
+    "com": "indolência",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "unicos",
-    "com": "únicos",
+    "sem": "paciencia",
+    "com": "paciência",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "otimos",
-    "com": "ótimos",
+    "sem": "retrogrado",
+    "com": "retrógrado",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
   },
   {
-    "sem": "minimos",
-    "com": "mínimos",
+    "sem": "inenarravel",
+    "com": "inenarrável",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "infortunio",
+    "com": "infortúnio",
     "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "extase",
+    "com": "êxtase",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "atraves",
+    "com": "através",
+    "regra": "Oxítona → terminada em -a(s), -e(s) ou -o(s), leva acento na última sílaba"
+  },
+  {
+    "sem": "vocabulo",
+    "com": "vocábulo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "litigio",
+    "com": "litígio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "otario",
+    "com": "otário",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "sobrio",
+    "com": "sóbrio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "elegivel",
+    "com": "elegível",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "incumbencia",
+    "com": "incumbência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "impavido",
+    "com": "impávido",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "incrivel",
+    "com": "incrível",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "vocabulario",
+    "com": "vocabulário",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "designio",
+    "com": "desígnio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "autentico",
+    "com": "autêntico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "solicito",
+    "com": "solícito",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "resistencia",
+    "com": "resistência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "gloria",
+    "com": "glória",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "frivolo",
+    "com": "frívolo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "endemico",
+    "com": "endêmico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "execravel",
+    "com": "execrável",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "juridico",
+    "com": "jurídico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "quica",
+    "com": "quiçá",
+    "regra": "Oxítona → terminada em -a(s), -e(s) ou -o(s), leva acento na última sílaba"
+  },
+  {
+    "sem": "insipido",
+    "com": "insípido",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "jactancia",
+    "com": "jactância",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "generico",
+    "com": "genérico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "intrinseca",
+    "com": "intrínseca",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "ambiguo",
+    "com": "ambíguo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "carencia",
+    "com": "carência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "signatario",
+    "com": "signatário",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "habito",
+    "com": "hábito",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "labaro",
+    "com": "lábaro",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "impeto",
+    "com": "ímpeto",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "convergencia",
+    "com": "convergência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "instancia",
+    "com": "instância",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "itinerario",
+    "com": "itinerário",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "ciencia",
+    "com": "ciência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "pneumoultramicroscopicossilicovulcanoconiotico",
+    "com": "pneumoultramicroscopicossilicovulcanoconiótico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "veridico",
+    "com": "verídico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "limitrofe",
+    "com": "limítrofe",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "iminencia",
+    "com": "iminência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "subsidio",
+    "com": "subsídio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "versatil",
+    "com": "versátil",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "sintetico",
+    "com": "sintético",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "esplendido",
+    "com": "esplêndido",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "jubilo",
+    "com": "júbilo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "constancia",
+    "com": "constância",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "estereotipo",
+    "com": "estereótipo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "pressagio",
+    "com": "presságio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "estupido",
+    "com": "estúpido",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "apos",
+    "com": "após",
+    "regra": "Oxítona → terminada em -a(s), -e(s) ou -o(s), leva acento na última sílaba"
+  },
+  {
+    "sem": "exotico",
+    "com": "exótico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "necessario",
+    "com": "necessário",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "pecuniaria",
+    "com": "pecuniária",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "icone",
+    "com": "ícone",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "oprobrio",
+    "com": "opróbrio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "irascivel",
+    "com": "irascível",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "volatil",
+    "com": "volátil",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "subsistencia",
+    "com": "subsistência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "espontaneo",
+    "com": "espontâneo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "futil",
+    "com": "fútil",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "egide",
+    "com": "égide",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "indulgencia",
+    "com": "indulgência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "insolito",
+    "com": "insólito",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "notorio",
+    "com": "notório",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "plausivel",
+    "com": "plausível",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "pusilanime",
+    "com": "pusilânime",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "hibrido",
+    "com": "híbrido",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "primicias",
+    "com": "primícias",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "exilio",
+    "com": "exílio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "incognita",
+    "com": "incógnita",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "sarcastico",
+    "com": "sarcástico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "inercia",
+    "com": "inércia",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "ludico",
+    "com": "lúdico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "despota",
+    "com": "déspota",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "sordido",
+    "com": "sórdido",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "privilegio",
+    "com": "privilégio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "dinamico",
+    "com": "dinâmico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "fe",
+    "com": "fé",
+    "regra": "Monossílabo tônico → terminado em -a, -e ou -o leva acento"
+  },
+  {
+    "sem": "ignobil",
+    "com": "ignóbil",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "divergencia",
+    "com": "divergência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "incolume",
+    "com": "incólume",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "limpido",
+    "com": "límpido",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "proverbio",
+    "com": "provérbio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "verossimil",
+    "com": "verossímil",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "leniencia",
+    "com": "leniência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "arquetipo",
+    "com": "arquétipo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "pernostico",
+    "com": "pernóstico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "reciproca",
+    "com": "recíproca",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "relevancia",
+    "com": "relevância",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "coincidencia",
+    "com": "coincidência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "sufragio",
+    "com": "sufrágio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "importancia",
+    "com": "importância",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "preambulo",
+    "com": "preâmbulo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "indubitavel",
+    "com": "indubitável",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "prognostico",
+    "com": "prognóstico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "custodia",
+    "com": "custódia",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "magnanimo",
+    "com": "magnânimo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "preterito",
+    "com": "pretérito",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "inferencia",
+    "com": "inferência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "placidas",
+    "com": "plácidas",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "esporadico",
+    "com": "esporádico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "negligencia",
+    "com": "negligência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "influencia",
+    "com": "influência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "etereo",
+    "com": "etéreo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "tacito",
+    "com": "tácito",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "obliquo",
+    "com": "oblíquo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "atipico",
+    "com": "atípico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "heterogeneo",
+    "com": "heterogêneo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "holistico",
+    "com": "holístico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "integro",
+    "com": "íntegro",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "prescindivel",
+    "com": "prescindível",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "intercorrencia",
+    "com": "intercorrência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "empafia",
+    "com": "empáfia",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "controversia",
+    "com": "controvérsia",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "magnifico",
+    "com": "magnífico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "tendencia",
+    "com": "tendência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "consciencia",
+    "com": "consciência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "coerencia",
+    "com": "coerência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "principio",
+    "com": "princípio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "contiguo",
+    "com": "contíguo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "habil",
+    "com": "hábil",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "parametro",
+    "com": "parâmetro",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "mutuo",
+    "com": "mútuo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "onus",
+    "com": "ônus",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "organico",
+    "com": "orgânico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "veemencia",
+    "com": "veemência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "volupia",
+    "com": "volúpia",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "possivel",
+    "com": "possível",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "proficuo",
+    "com": "profícuo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "metafora",
+    "com": "metáfora",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "individuo",
+    "com": "indivíduo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "vituperio",
+    "com": "vitupério",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "ninfomaniaco",
+    "com": "ninfomaníaco",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "dificil",
+    "com": "difícil",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "cortes",
+    "com": "cortês",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "vovo",
+    "com": ["vovó", "vovô"],
+    "regra": "Oxítona → terminada em -a(s), -e(s) ou -o(s), leva acento na última sílaba"
+  },
+  {
+    "sem": "imprevisivel",
+    "com": "imprevisível",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "miseravel",
+    "com": "miserável",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "alem",
+    "com": "além",
+    "regra": "Oxítona → terminada em -em ou -ens, leva acento na última sílaba"
+  },
+  {
+    "sem": "militancia",
+    "com": "militância",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "redundancia",
+    "com": "redundância",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "avido",
+    "com": "ávido",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "escatologico",
+    "com": "escatológico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "congruencia",
+    "com": "congruência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "obice",
+    "com": "óbice",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "ridiculo",
+    "com": "ridículo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "ausencia",
+    "com": "ausência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "providencia",
+    "com": "providência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "abominavel",
+    "com": "abominável",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "obsequio",
+    "com": "obséquio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "tangivel",
+    "com": "tangível",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "inverossimil",
+    "com": "inverossímil",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "assintomatico",
+    "com": "assintomático",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "incongruencia",
+    "com": "incongruência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "irrepreensivel",
+    "com": "irrepreensível",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "comprobatorio",
+    "com": "comprobatório",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "fatico",
+    "com": "fático",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "nomade",
+    "com": "nômade",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "reminiscencia",
+    "com": "reminiscência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "homogeneo",
+    "com": "homogêneo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "deferencia",
+    "com": "deferência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "conferencia",
+    "com": "conferência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "displicencia",
+    "com": "displicência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "paria",
+    "com": "pária",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "adagio",
+    "com": "adágio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "antagonico",
+    "com": "antagônico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "acefalo",
+    "com": "acéfalo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "sistematico",
+    "com": "sistemático",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "especifico",
+    "com": "específico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "hipotese",
+    "com": "hipótese",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "apice",
+    "com": "ápice",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "provincia",
+    "com": "província",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "compulsorio",
+    "com": "compulsório",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "voluvel",
+    "com": "volúvel",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "ignominia",
+    "com": "ignomínia",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "animo",
+    "com": "ânimo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "duvida",
+    "com": "dúvida",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "dispendio",
+    "com": "dispêndio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "espurio",
+    "com": "espúrio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "maledicencia",
+    "com": "maledicência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "comico",
+    "com": "cômico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "extemporaneo",
+    "com": "extemporâneo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "eloquencia",
+    "com": "eloquência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "fenomeno",
+    "com": "fenômeno",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "molestia",
+    "com": "moléstia",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "solidario",
+    "com": "solidário",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "instavel",
+    "com": "instável",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "detem",
+    "com": "detém",
+    "regra": "Oxítona → terminada em -em ou -ens, leva acento na última sílaba"
+  },
+  {
+    "sem": "idiossincratico",
+    "com": "idiossincrático",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "patetico",
+    "com": "patético",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "desidia",
+    "com": "desídia",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "equivoco",
+    "com": "equívoco",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "trafego",
+    "com": "tráfego",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "enigmatico",
+    "com": "enigmático",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "flamula",
+    "com": "flâmula",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "esoterico",
+    "com": "esotérico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "lugubre",
+    "com": "lúgubre",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "formidavel",
+    "com": "formidável",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "ansia",
+    "com": "ânsia",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "amiude",
+    "com": "amiúde",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "intolerancia",
+    "com": "intolerância",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "implacavel",
+    "com": "implacável",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "melancolico",
+    "com": "melancólico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "factivel",
+    "com": "factível",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "neofito",
+    "com": "neófito",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "aprazivel",
+    "com": "aprazível",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "simbolo",
+    "com": "símbolo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "enfatico",
+    "com": "enfático",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "colerico",
+    "com": "colérico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "lunatico",
+    "com": "lunático",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "lirico",
+    "com": "lírico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "onirico",
+    "com": "onírico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "imutavel",
+    "com": "imutável",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "hipotetico",
+    "com": "hipotético",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "misericordia",
+    "com": "misericórdia",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "perdulario",
+    "com": "perdulário",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "nevralgico",
+    "com": "nevrálgico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "locatario",
+    "com": "locatário",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "vulneravel",
+    "com": "vulnerável",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "imputavel",
+    "com": "imputável",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "preludio",
+    "com": "prelúdio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "balburdia",
+    "com": "balbúrdia",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "competencia",
+    "com": "competência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "intangivel",
+    "com": "intangível",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "sensivel",
+    "com": "sensível",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "declinio",
+    "com": "declínio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "resquicio",
+    "com": "resquício",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "emblematico",
+    "com": "emblemático",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "biblia",
+    "com": "bíblia",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "intrepido",
+    "com": "intrépido",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "abundancia",
+    "com": "abundância",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "imbuido",
+    "com": "imbuído",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "idonea",
+    "com": "idônea",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "apanagio",
+    "com": "apanágio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "vicio",
+    "com": "vício",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "belico",
+    "com": "bélico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "procedencia",
+    "com": "procedência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "energumeno",
+    "com": "energúmeno",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "autoritario",
+    "com": "autoritário",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "saude",
+    "com": "saúde",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "desprezivel",
+    "com": "desprezível",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "estulticia",
+    "com": "estultícia",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "simplorio",
+    "com": "simplório",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "periodo",
+    "com": "período",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "area",
+    "com": "área",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "longanimo",
+    "com": "longânimo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "perecivel",
+    "com": "perecível",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "ignorancia",
+    "com": "ignorância",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "inteligivel",
+    "com": "inteligível",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "tacita",
+    "com": "tácita",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "acronimo",
+    "com": "acrônimo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "reves",
+    "com": "revés",
+    "regra": "Oxítona → terminada em -a(s), -e(s) ou -o(s), leva acento na última sílaba"
+  },
+  {
+    "sem": "incoerencia",
+    "com": "incoerência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "analoga",
+    "com": "análoga",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "persistencia",
+    "com": "persistência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "sera",
+    "com": "será",
+    "regra": "Oxítona → terminada em -a(s), -e(s) ou -o(s), leva acento na última sílaba"
+  },
+  {
+    "sem": "beneficio",
+    "com": "benefício",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "intermediario",
+    "com": "intermediário",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "sedentario",
+    "com": "sedentário",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "pratica",
+    "com": "prática",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "pandego",
+    "com": "pândego",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "dialetica",
+    "com": "dialética",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "vigencia",
+    "com": "vigência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "ciclico",
+    "com": "cíclico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "desdem",
+    "com": "desdém",
+    "regra": "Oxítona → terminada em -em ou -ens, leva acento na última sílaba"
+  },
+  {
+    "sem": "proselito",
+    "com": "prosélito",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "letargico",
+    "com": "letárgico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "refugio",
+    "com": "refúgio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "nenem",
+    "com": "neném",
+    "regra": "Oxítona → terminada em -em ou -ens, leva acento na última sílaba"
+  },
+  {
+    "sem": "evidencia",
+    "com": "evidência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "discipulo",
+    "com": "discípulo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "prestigio",
+    "com": "prestígio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "incomensuravel",
+    "com": "incomensurável",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "tolerancia",
+    "com": "tolerância",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "metodo",
+    "com": "método",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "indispensavel",
+    "com": "indispensável",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "irredutivel",
+    "com": "irredutível",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "atras",
+    "com": "atrás",
+    "regra": "Oxítona → terminada em -a(s), -e(s) ou -o(s), leva acento na última sílaba"
+  },
+  {
+    "sem": "blasfemia",
+    "com": "blasfêmia",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "martirio",
+    "com": "martírio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "diplomatico",
+    "com": "diplomático",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "irrefutavel",
+    "com": "irrefutável",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "tras",
+    "com": "trás",
+    "regra": "Oxítona → terminada em -a(s), -e(s) ou -o(s), leva acento na última sílaba"
+  },
+  {
+    "sem": "ganancia",
+    "com": "ganância",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "temerario",
+    "com": "temerário",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "incomodo",
+    "com": "incômodo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "parabola",
+    "com": "parábola",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "facinora",
+    "com": "facínora",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "clerigo",
+    "com": "clérigo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "prospero",
+    "com": "próspero",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "nos",
+    "com": "nós",
+    "regra": "Oxítona → terminada em -a(s), -e(s) ou -o(s), leva acento na última sílaba"
+  },
+  {
+    "sem": "subserviencia",
+    "com": "subserviência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "merce",
+    "com": "mercê",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "congenere",
+    "com": "congênere",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "replica",
+    "com": "réplica",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "inutil",
+    "com": "inútil",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "fatidico",
+    "com": "fatídico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "discricionario",
+    "com": "discricionário",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "simpatico",
+    "com": "simpático",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "inevitavel",
+    "com": "inevitável",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "pictorico",
+    "com": "pictórico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "interdependencia",
+    "com": "interdependência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "lucido",
+    "com": "lúcido",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "recondito",
+    "com": "recôndito",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "maquiavelico",
+    "com": "maquiavélico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "credulo",
+    "com": "crédulo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "ontologico",
+    "com": "ontológico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "refratario",
+    "com": "refratário",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "juizo",
+    "com": "juízo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "hermeneutica",
+    "com": "hermenêutica",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "petulancia",
+    "com": "petulância",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "vosmece",
+    "com": "vosmecê",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "proprio",
+    "com": "próprio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "aquiescencia",
+    "com": "aquiescência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "despotico",
+    "com": "despótico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "equilibrio",
+    "com": "equilíbrio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "arrogancia",
+    "com": "arrogância",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "sabio",
+    "com": "sábio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "preponderancia",
+    "com": "preponderância",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "licito",
+    "com": "lícito",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "sabatico",
+    "com": "sabático",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "ironico",
+    "com": "irônico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "coexistencia",
+    "com": "coexistência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "preeminencia",
+    "com": "preeminência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "parabens",
+    "com": "parabéns",
+    "regra": "Oxítona → terminada em -em ou -ens, leva acento na última sílaba"
+  },
+  {
+    "sem": "antologico",
+    "com": "antológico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "dependencia",
+    "com": "dependência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "atonito",
+    "com": "atônito",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "endogeno",
+    "com": "endógeno",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "pifio",
+    "com": "pífio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "sintomatico",
+    "com": "sintomático",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "proeminencia",
+    "com": "proeminência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "extrinseco",
+    "com": "extrínseco",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "efemera",
+    "com": "efêmera",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "academico",
+    "com": "acadêmico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "colera",
+    "com": "cólera",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "genero",
+    "com": "gênero",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "fulgido",
+    "com": "fúlgido",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "mercenario",
+    "com": "mercenário",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "cumplice",
+    "com": "cúmplice",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "iniquo",
+    "com": "iníquo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "periodico",
+    "com": "periódico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "heroi",
+    "com": "herói",
+    "regra": "Oxítona → terminada em ditongo aberto (-éu, -éi, -ói), leva acento na última sílaba"
+  },
+  {
+    "sem": "ingreme",
+    "com": "íngreme",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "egoista",
+    "com": "egoísta",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "reu",
+    "com": "réu",
+    "regra": "Oxítona → terminada em ditongo aberto (-éu, -éi, -ói), leva acento na última sílaba"
+  },
+  {
+    "sem": "facil",
+    "com": "fácil",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "independencia",
+    "com": "independência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "repudio",
+    "com": "repúdio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "epigrafe",
+    "com": "epígrafe",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "mensuravel",
+    "com": "mensurável",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "confluencia",
+    "com": "confluência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "praxis",
+    "com": "práxis",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "incontinencia",
+    "com": "incontinência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "egocentrico",
+    "com": "egocêntrico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "conteudo",
+    "com": "conteúdo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "topico",
+    "com": "tópico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "reprobo",
+    "com": "réprobo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "atavico",
+    "com": "atávico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "serio",
+    "com": "sério",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "sudito",
+    "com": "súdito",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "ebrio",
+    "com": "ébrio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "critica",
+    "com": "crítica",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "magoa",
+    "com": "mágoa",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "acessivel",
+    "com": "acessível",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "imbroglio",
+    "com": "imbróglio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "genese",
+    "com": "gênese",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "eficacia",
+    "com": "eficácia",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "romantico",
+    "com": "romântico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "calunia",
+    "com": "calúnia",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "flexivel",
+    "com": "flexível",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "improvavel",
+    "com": "improvável",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "ingenuo",
+    "com": "ingênuo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "martir",
+    "com": "mártir",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "politica",
+    "com": "política",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "insensivel",
+    "com": "insensível",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "destinatario",
+    "com": "destinatário",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "pendencia",
+    "com": "pendência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "consistencia",
+    "com": "consistência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "impio",
+    "com": "ímpio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "imprescritivel",
+    "com": "imprescritível",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "estrategia",
+    "com": "estratégia",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "razoavel",
+    "com": "razoável",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "epitome",
+    "com": "epítome",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "dialogo",
+    "com": "diálogo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "pertinencia",
+    "com": "pertinência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "culminancia",
+    "com": "culminância",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "plato",
+    "com": "platô",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "inalienavel",
+    "com": "inalienável",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "egoismo",
+    "com": "egoísmo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "reacionario",
+    "com": "reacionário",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "especie",
+    "com": "espécie",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "responsavel",
+    "com": "responsável",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "canonico",
+    "com": "canônico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "peripecia",
+    "com": "peripécia",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "apostata",
+    "com": "apóstata",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "odio",
+    "com": "ódio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "lexico",
+    "com": "léxico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "infamia",
+    "com": "infâmia",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "falico",
+    "com": "fálico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "sorumbatico",
+    "com": "sorumbático",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "analise",
+    "com": "análise",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "destituido",
+    "com": "destituído",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "dinamica",
+    "com": "dinâmica",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "incredulo",
+    "com": "incrédulo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "obvio",
+    "com": "óbvio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "indissociavel",
+    "com": "indissociável",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "equanime",
+    "com": "equânime",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "contraditorio",
+    "com": "contraditório",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "ja",
+    "com": "já",
+    "regra": "Monossílabo tônico → terminado em -a, -e ou -o leva acento"
+  },
+  {
+    "sem": "satira",
+    "com": "sátira",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "homonimo",
+    "com": "homônimo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "espontanea",
+    "com": "espontânea",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "empatico",
+    "com": "empático",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "apendice",
+    "com": "apêndice",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "previsivel",
+    "com": "previsível",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "exodo",
+    "com": "êxodo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "vestigio",
+    "com": "vestígio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "latifundiario",
+    "com": "latifundiário",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "infimo",
+    "com": "ínfimo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "exiguo",
+    "com": "exíguo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "batraquio",
+    "com": "batráquio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "venia",
+    "com": "vênia",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "sequito",
+    "com": "séquito",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "irrisorio",
+    "com": "irrisório",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "patologico",
+    "com": "patológico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "tedio",
+    "com": "tédio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "intransponivel",
+    "com": "intransponível",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "alibi",
+    "com": "álibi",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "intersticio",
+    "com": "interstício",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "alem disso",
+    "com": "além disso",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "caracteristicas",
+    "com": "características",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "ate",
+    "com": "até",
+    "regra": "Monossílabo tônico → terminado em -a, -e ou -o leva acento"
+  },
+  {
+    "sem": "involucro",
+    "com": "invólucro",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "propicio",
+    "com": "propício",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "idilio",
+    "com": "idílio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "epistemico",
+    "com": "epistêmico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "ocio",
+    "com": "ócio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "angustia",
+    "com": "angústia",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "conspicuo",
+    "com": "conspícuo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "translucido",
+    "com": "translúcido",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "quintessencia",
+    "com": "quintessência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "unanime",
+    "com": "unânime",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "desperdicio",
+    "com": "desperdício",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "provem",
+    "com": "provém",
+    "regra": "Oxítona → terminada em -em ou -ens, leva acento na última sílaba"
+  },
+  {
+    "sem": "histrionico",
+    "com": "histriônico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "augurio",
+    "com": "augúrio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "animico",
+    "com": "anímico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "inaudivel",
+    "com": "inaudível",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "reverencia",
+    "com": "reverência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "deleterio",
+    "com": "deletério",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "crepusculo",
+    "com": "crepúsculo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "esbornia",
+    "com": "esbórnia",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "cenario",
+    "com": "cenário",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "genio",
+    "com": "gênio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "assiduo",
+    "com": "assíduo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "discordia",
+    "com": "discórdia",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "disponivel",
+    "com": "disponível",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "metodica",
+    "com": "metódica",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "opulencia",
+    "com": "opulência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "democratico",
+    "com": "democrático",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "conhece",
+    "com": "conhecê",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "filho prodigo",
+    "com": "filho pródigo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "vinculo",
+    "com": "vínculo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "gregario",
+    "com": "gregário",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "triade",
+    "com": "tríade",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "tragedia",
+    "com": "tragédia",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "probatorio",
+    "com": "probatório",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "eficiencia",
+    "com": "eficiência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "genocidio",
+    "com": "genocídio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "sistemico",
+    "com": "sistêmico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "diagnostico",
+    "com": "diagnóstico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "estancia",
+    "com": "estância",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "hilario",
+    "com": "hilário",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "histerica",
+    "com": "histérica",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "balsamo",
+    "com": "bálsamo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "subito",
+    "com": "súbito",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "estrupicio",
+    "com": "estrupício",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "bencao",
+    "com": "bênção",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "inequivoco",
+    "com": "inequívoco",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "censitario",
+    "com": "censitário",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "sectario",
+    "com": "sectário",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "perfido",
+    "com": "pérfido",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "patria",
+    "com": "pátria",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "impossivel",
+    "com": "impossível",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "simultaneo",
+    "com": "simultâneo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "monopolio",
+    "com": "monopólio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "compendio",
+    "com": "compêndio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "proficiencia",
+    "com": "proficiência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "erroneo",
+    "com": "errôneo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "sistematica",
+    "com": "sistemática",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "sabia",
+    "com": "sábia",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "superficie",
+    "com": "superfície",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "so",
+    "com": "só",
+    "regra": "Monossílabo tônico → terminado em -a, -e ou -o leva acento"
+  },
+  {
+    "sem": "caotico",
+    "com": "caótico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "proximo",
+    "com": "próximo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "dominio",
+    "com": "domínio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "misterio",
+    "com": "mistério",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "violencia",
+    "com": "violência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "pecunia",
+    "com": "pecúnia",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "languido",
+    "com": "lânguido",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "favoravel",
+    "com": "favorável",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "tipico",
+    "com": "típico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "lastima",
+    "com": "lástima",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "agnostico",
+    "com": "agnóstico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "agil",
+    "com": "ágil",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "chapeu",
+    "com": "chapéu",
+    "regra": "Oxítona → terminada em ditongo aberto (-éu, -éi, -ói), leva acento na última sílaba"
+  },
+  {
+    "sem": "unico",
+    "com": "único",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "inelegivel",
+    "com": "inelegível",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "existencia",
+    "com": "existência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "maleavel",
+    "com": "maleável",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "rispido",
+    "com": "ríspido",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "abstinencia",
+    "com": "abstinência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "pos",
+    "com": "pós",
+    "regra": "Oxítona → terminada em -a(s), -e(s) ou -o(s), leva acento na última sílaba"
+  },
+  {
+    "sem": "frivola",
+    "com": "frívola",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "ininteligivel",
+    "com": "ininteligível",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "indice",
+    "com": "índice",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "inescrutavel",
+    "com": "inescrutável",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "preferencia",
+    "com": "preferência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "silencio",
+    "com": "silêncio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "mitico",
+    "com": "mítico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "estatico",
+    "com": "estático",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "calido",
+    "com": "cálido",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "precipuo",
+    "com": "precípuo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "falacia",
+    "com": "falácia",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "arbitrio",
+    "com": "arbítrio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "reliquia",
+    "com": "relíquia",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "colonia",
+    "com": "colônia",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "agua",
+    "com": "água",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "beneficencia",
+    "com": "beneficência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "pecuniario",
+    "com": "pecuniário",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "monogamico",
+    "com": "monogâmico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "profilatico",
+    "com": "profilático",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "dubio",
+    "com": "dúbio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "sinico",
+    "com": "sínico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "conscio",
+    "com": "cônscio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "memoria",
+    "com": "memória",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "pacifico",
+    "com": "pacífico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "injuria",
+    "com": "injúria",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "bucolico",
+    "com": "bucólico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "insolencia",
+    "com": "insolência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "inicio",
+    "com": "início",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "epico",
+    "com": "épico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "util",
+    "com": "útil",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "obito",
+    "com": "óbito",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "ecumenico",
+    "com": "ecumênico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "cadencia",
+    "com": "cadência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "abrangencia",
+    "com": "abrangência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "lider",
+    "com": "líder",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "rapido",
+    "com": "rápido",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "psiquico",
+    "com": "psíquico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "categorico",
+    "com": "categórico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "esteril",
+    "com": "estéril",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "aprioristico",
+    "com": "apriorístico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "semantica",
+    "com": "semântica",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "macambuzio",
+    "com": "macambúzio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "eliptico",
+    "com": "elíptico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "dogmatico",
+    "com": "dogmático",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "deploravel",
+    "com": "deplorável",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "analogico",
+    "com": "analógico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "ciume",
+    "com": "ciúme",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "decadencia",
+    "com": "decadência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "primogenito",
+    "com": "primogênito",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "carismatico",
+    "com": "carismático",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "prenuncio",
+    "com": "prenúncio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "delicia",
+    "com": "delícia",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "didatico",
+    "com": "didático",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "varias",
+    "com": "várias",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "hereditario",
+    "com": "hereditário",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "aparencia",
+    "com": "aparência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "alguem",
+    "com": "alguém",
+    "regra": "Oxítona → terminada em -em ou -ens, leva acento na última sílaba"
+  },
+  {
+    "sem": "contrario",
+    "com": "contrário",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "ceptico",
+    "com": "céptico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "prototipo",
+    "com": "protótipo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "ocorrencia",
+    "com": "ocorrência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "vernaculo",
+    "com": "vernáculo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "parvoice",
+    "com": "parvoíce",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "impassivel",
+    "com": "impassível",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "crivel",
+    "com": "crível",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "ordinaria",
+    "com": "ordinária",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "hidropico",
+    "com": "hidrópico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "arduo",
+    "com": "árduo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "interim",
+    "com": "ínterim",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "estara",
+    "com": "estará",
+    "regra": "Oxítona → terminada em -a(s), -e(s) ou -o(s), leva acento na última sílaba"
+  },
+  {
+    "sem": "ficticio",
+    "com": "fictício",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "timido",
+    "com": "tímido",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "semantico",
+    "com": "semântico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "honorario",
+    "com": "honorário",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "nosocomio",
+    "com": "nosocômio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "emerito",
+    "com": "emérito",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "perceptivel",
+    "com": "perceptível",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "trafico",
+    "com": "tráfico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "improperio",
+    "com": "impropério",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "heretico",
+    "com": "herético",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "indumentaria",
+    "com": "indumentária",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "cognoscivel",
+    "com": "cognoscível",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "irreverencia",
+    "com": "irreverência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "morfetico",
+    "com": "morfético",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "prolifico",
+    "com": "prolífico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "midiatico",
+    "com": "midiático",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "agradavel",
+    "com": "agradável",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "oficio",
+    "com": "ofício",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "susceptivel",
+    "com": "susceptível",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "celebre",
+    "com": "célebre",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "pedagogico",
+    "com": "pedagógico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "celere",
+    "com": "célere",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "macula",
+    "com": "mácula",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "revolucionario",
+    "com": "revolucionário",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "inconstancia",
+    "com": "inconstância",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "egregio",
+    "com": "egrégio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "fertil",
+    "com": "fértil",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "estavamos",
+    "com": "estávamos",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "debil",
+    "com": "débil",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "subtitulo",
+    "com": "subtítulo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "decorrencia",
+    "com": "decorrência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "suplica",
+    "com": "súplica",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "indicio",
+    "com": "indício",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "convivencia",
+    "com": "convivência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "monossilabico",
+    "com": "monossilábico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "indescritivel",
+    "com": "indescritível",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "superveniencia",
+    "com": "superveniência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "otica",
+    "com": "ótica",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "saliencia",
+    "com": "saliência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "diafano",
+    "com": "diáfano",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "decrepito",
+    "com": "decrépito",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "insuscetivel",
+    "com": "insuscetível",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "ira",
+    "com": "irá",
+    "regra": "Monossílabo tônico → terminado em -a, -e ou -o leva acento"
+  },
+  {
+    "sem": "inestimavel",
+    "com": "inestimável",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "pauperrimo",
+    "com": "paupérrimo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "presciencia",
+    "com": "presciência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "relicario",
+    "com": "relicário",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "gratis",
+    "com": "grátis",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "ninguem",
+    "com": "ninguém",
+    "regra": "Oxítona → terminada em -em ou -ens, leva acento na última sílaba"
+  },
+  {
+    "sem": "notavel",
+    "com": "notável",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "viavel",
+    "com": "viável",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "empirica",
+    "com": "empírica",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "vacuo",
+    "com": "vácuo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "patrimonio",
+    "com": "patrimônio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "sairam",
+    "com": "saíram",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "apocrifo",
+    "com": "apócrifo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "ferias",
+    "com": "férias",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "inescusavel",
+    "com": "inescusável",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "antonimo",
+    "com": "antônimo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "honorarios",
+    "com": "honorários",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "sacrificio",
+    "com": "sacrifício",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "serie",
+    "com": "série",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "fragrancia",
+    "com": "fragrância",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "magnificencia",
+    "com": "magnificência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "prefacio",
+    "com": "prefácio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "transcendencia",
+    "com": "transcendência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "adulterio",
+    "com": "adultério",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "epiteto",
+    "com": "epíteto",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "toxico",
+    "com": "tóxico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "autonomo",
+    "com": "autônomo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "cinica",
+    "com": "cínica",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "dissonancia",
+    "com": "dissonância",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "barbaro",
+    "com": "bárbaro",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "sintatico",
+    "com": "sintático",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "sumario",
+    "com": "sumário",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "pais",
+    "com": "país",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "diacronico",
+    "com": "diacrônico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "intimo",
+    "com": "íntimo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "estimulo",
+    "com": "estímulo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "advem",
+    "com": "advém",
+    "regra": "Oxítona → terminada em -em ou -ens, leva acento na última sílaba"
+  },
+  {
+    "sem": "cronica",
+    "com": "crônica",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "monetario",
+    "com": "monetário",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "terrivel",
+    "com": "terrível",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "puerpera",
+    "com": "puérpera",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "antropico",
+    "com": "antrópico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "inexpugnavel",
+    "com": "inexpugnável",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "sustentavel",
+    "com": "sustentável",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "vira",
+    "com": "virá",
+    "regra": "Oxítona → terminada em -a(s), -e(s) ou -o(s), leva acento na última sílaba"
+  },
+  {
+    "sem": "fiduciario",
+    "com": "fiduciário",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "evoe",
+    "com": "evoé",
+    "regra": "Oxítona → terminada em -a(s), -e(s) ou -o(s), leva acento na última sílaba"
+  },
+  {
+    "sem": "prologo",
+    "com": "prólogo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "inflexivel",
+    "com": "inflexível",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "pandega",
+    "com": "pândega",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "suplicio",
+    "com": "suplício",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "lingua",
+    "com": "língua",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "benemerito",
+    "com": "benemérito",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "transitorio",
+    "com": "transitório",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "diaspora",
+    "com": "diáspora",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "maxima",
+    "com": "máxima",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "clemencia",
+    "com": "clemência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "inepcia",
+    "com": "inépcia",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "malicia",
+    "com": "malícia",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "impar",
+    "com": "ímpar",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "especifica",
+    "com": "específica",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "solitario",
+    "com": "solitário",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "frenetico",
+    "com": "frenético",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "ambivalencia",
+    "com": "ambivalência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "conterraneo",
+    "com": "conterrâneo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "programatico",
+    "com": "programático",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "advertencia",
+    "com": "advertência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "saudavel",
+    "com": "saudável",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "binomio",
+    "com": "binômio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "latifundio",
+    "com": "latifúndio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "intermedio",
+    "com": "intermédio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "blase",
+    "com": "blasé",
+    "regra": "Oxítona → terminada em -a(s), -e(s) ou -o(s), leva acento na última sílaba"
+  },
+  {
+    "sem": "vitalicio",
+    "com": "vitalício",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "inconsistencia",
+    "com": "inconsistência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "monolitico",
+    "com": "monolítico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "indigena",
+    "com": "indígena",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "fabula",
+    "com": "fábula",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "amavel",
+    "com": "amável",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "integra",
+    "com": "íntegra",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "publico",
+    "com": "público",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "decencia",
+    "com": "decência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "antipatico",
+    "com": "antipático",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "continuo",
+    "com": "contínuo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "sacrilegio",
+    "com": "sacrilégio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "previa",
+    "com": "prévia",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "erario",
+    "com": "erário",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "metafisica",
+    "com": "metafísica",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "contem",
+    "com": "contém",
+    "regra": "Oxítona → terminada em -em ou -ens, leva acento na última sílaba"
+  },
+  {
+    "sem": "cessionario",
+    "com": "cessionário",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "concentrico",
+    "com": "concêntrico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "salafrario",
+    "com": "salafrário",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "unissono",
+    "com": "uníssono",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "assistencia",
+    "com": "assistência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "aurea",
+    "com": "áurea",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "eutrofico",
+    "com": "eutrófico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "auxilio",
+    "com": "auxílio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "bebado",
+    "com": "bêbado",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "ha",
+    "com": "há",
+    "regra": "Monossílabo tônico → terminado em -a, -e ou -o leva acento"
+  },
+  {
+    "sem": "oraculo",
+    "com": "oráculo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "despauterio",
+    "com": "despautério",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "docil",
+    "com": "dócil",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "ilegivel",
+    "com": "ilegível",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "inocua",
+    "com": "inócua",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "mutavel",
+    "com": "mutável",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "gramatica",
+    "com": "gramática",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "no",
+    "com": "nó",
+    "regra": "Monossílabo tônico → terminado em -a, -e ou -o leva acento"
+  },
+  {
+    "sem": "rustico",
+    "com": "rústico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "longinquo",
+    "com": "longínquo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "historico",
+    "com": "histórico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "analitica",
+    "com": "analítica",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "honorifico",
+    "com": "honorífico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "alias",
+    "com": "aliás",
+    "regra": "Oxítona → terminada em -a(s), -e(s) ou -o(s), leva acento na última sílaba"
+  },
+  {
+    "sem": "insaciavel",
+    "com": "insaciável",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "vitoria",
+    "com": "vitória",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "repugnancia",
+    "com": "repugnância",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "excrescencia",
+    "com": "excrescência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "lamuria",
+    "com": "lamúria",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "docencia",
+    "com": "docência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "consectario",
+    "com": "consectário",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "heuristico",
+    "com": "heurístico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "laconico",
+    "com": "lacônico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "custo-beneficio",
+    "com": "custo-benefício",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "nitido",
+    "com": "nítido",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "biblico",
+    "com": "bíblico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "inocencia",
+    "com": "inocência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "arido",
+    "com": "árido",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "sociavel",
+    "com": "sociável",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "obstaculo",
+    "com": "obstáculo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "acuracia",
+    "com": "acurácia",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "implicita",
+    "com": "implícita",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "psicologico",
+    "com": "psicológico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "penuria",
+    "com": "penúria",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "precedencia",
+    "com": "precedência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "antitese",
+    "com": "antítese",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "inabalavel",
+    "com": "inabalável",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "precipua",
+    "com": "precípua",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "covado",
+    "com": "côvado",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "igualitario",
+    "com": "igualitário",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "classico",
+    "com": "clássico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "visionario",
+    "com": "visionário",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "instruido",
+    "com": "instruído",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "estapafurdio",
+    "com": "estapafúrdio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "nostalgico",
+    "com": "nostálgico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "nordico",
+    "com": "nórdico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "plenaria",
+    "com": "plenária",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "tirocinio",
+    "com": "tirocínio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "pandemonio",
+    "com": "pandemônio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "opio",
+    "com": "ópio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "secundario",
+    "com": "secundário",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "virus",
+    "com": "vírus",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "substancia",
+    "com": "substância",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "gigolo",
+    "com": "gigolô",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "periferico",
+    "com": "periférico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "epitafio",
+    "com": "epitáfio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "imprudencia",
+    "com": "imprudência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "comodo",
+    "com": "cômodo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "indisponivel",
+    "com": "indisponível",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "miriade",
+    "com": "miríade",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "saida",
+    "com": "saída",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "desnecessario",
+    "com": "desnecessário",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "antipoda",
+    "com": "antípoda",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "propria",
+    "com": "própria",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "randomico",
+    "com": "randômico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "trajetoria",
+    "com": "trajetória",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "cafe",
+    "com": "café",
+    "regra": "Oxítona → terminada em -a(s), -e(s) ou -o(s), leva acento na última sílaba"
+  },
+  {
+    "sem": "tramite",
+    "com": "trâmite",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "acritico",
+    "com": "acrítico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "transito",
+    "com": "trânsito",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "otimo",
+    "com": "ótimo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "mistica",
+    "com": "mística",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "irresponsavel",
+    "com": "irresponsável",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "aspero",
+    "com": "áspero",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "canone",
+    "com": "cânone",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "premencia",
+    "com": "premência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "estapafurdia",
+    "com": "estapafúrdia",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "sortilegio",
+    "com": "sortilégio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "prepotencia",
+    "com": "prepotência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "assimetrico",
+    "com": "assimétrico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "voluntario",
+    "com": "voluntário",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "provavel",
+    "com": "provável",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "estrabico",
+    "com": "estrábico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "varios",
+    "com": "vários",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "enciclopedia",
+    "com": "enciclopédia",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "republica",
+    "com": "república",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "inexequivel",
+    "com": "inexequível",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "principios",
+    "com": "princípios",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "musica",
+    "com": "música",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "aureo",
+    "com": "áureo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "inquerito",
+    "com": "inquérito",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "compativel",
+    "com": "compatível",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "erronea",
+    "com": "errônea",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "fascinio",
+    "com": "fascínio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "tecnica",
+    "com": "técnica",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "portfolio",
+    "com": "portfólio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "por",
+    "com": "pôr",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "cutaneo",
+    "com": "cutâneo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "critico",
+    "com": "crítico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "oxala",
+    "com": "oxalá",
+    "regra": "Oxítona → terminada em -a(s), -e(s) ou -o(s), leva acento na última sílaba"
+  },
+  {
+    "sem": "simetrico",
+    "com": "simétrico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "imperceptivel",
+    "com": "imperceptível",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "memoravel",
+    "com": "memorável",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "constituido",
+    "com": "constituído",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "prejuizo",
+    "com": "prejuízo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "condolencia",
+    "com": "condolência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "placido",
+    "com": "plácido",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "arrendatario",
+    "com": "arrendatário",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "exercicio",
+    "com": "exercício",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "crapula",
+    "com": "crápula",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "catedra",
+    "com": "cátedra",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "coronavirus",
+    "com": "coronavírus",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "residencia",
+    "com": "residência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "milicia",
+    "com": "milícia",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "vivido",
+    "com": "vívido",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "curriculo",
+    "com": "currículo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "espolio",
+    "com": "espólio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "equivalencia",
+    "com": "equivalência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "ascetico",
+    "com": "ascético",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "majoritario",
+    "com": "majoritário",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "emporio",
+    "com": "empório",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "legitimo",
+    "com": "legítimo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "pilheria",
+    "com": "pilhéria",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "rentavel",
+    "com": "rentável",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
+  },
+  {
+    "sem": "titulo",
+    "com": "título",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "estelionatario",
+    "com": "estelionatário",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "telurico",
+    "com": "telúrico",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "candido",
+    "com": "cândido",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "coloquio",
+    "com": "colóquio",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "intransigencia",
+    "com": "intransigência",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "infancia",
+    "com": "infância",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "precario",
+    "com": "precário",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "atomo",
+    "com": "átomo",
+    "regra": "Proparoxítona → sempre leva acento na antepenúltima sílaba"
+  },
+  {
+    "sem": "incognoscivel",
+    "com": "incognoscível",
+    "regra": "Paroxítona → terminada em consoantes ou ditongos que exigem acento na penúltima sílaba"
   }
 ]
