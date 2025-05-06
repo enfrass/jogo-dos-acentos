@@ -1,18 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-5XPG8X71J6"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-5XPG8X71J6');
-</script>
+   <link rel="icon" href="logo.png" sizes="64x64" type="image/png">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Política de Privacidade - Jogo dos Acentos</title>
   <meta name="description" content="Saiba como o Jogo dos Acentos coleta, armazena e utiliza suas informações. Transparência e segurança para todos os usuários.">
+ </head>
   <style>
     body {
       font-family: 'Courier New', monospace;
@@ -48,8 +42,80 @@
       cursor: pointer;
       font-family: 'Courier New', monospace;
     }
+
+    /* Rodapé */
+    html, body {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    body {
+      flex: 1;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      font-size: 14px;
+      width: 100%;
+      margin-top: auto;
+      position: relative;
+      bottom: 0;
+    }
+
+    footer .footer-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    footer nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 10px 0;
+    }
+
+    footer nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+
+    footer nav ul li a {
+      color: white;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    footer nav ul li a:hover {
+      color: #f39c12;
+    }
+
+    /* Responsividade */
+    @media screen and (max-width: 800px) {
+      footer {
+        font-size: 12px;
+      }
+
+      footer nav ul {
+        padding: 0;
+        margin: 0;
+      }
+
+      footer nav ul li {
+        display: block;
+        margin: 5px 0;
+      }
+
+      footer nav ul li a {
+        display: block;
+        padding: 5px 0;
+      }
+    }
   </style>
-</head>
 <body>
   <main>
     <h1>Política de Privacidade</h1>
@@ -73,7 +139,20 @@
     <h2>6. Contato</h2>
     <p>Em caso de dúvidas sobre esta política, entre em contato pelo e-mail: <a href="mailto:enzofrasson2@gmail.com">enzofrasson2@gmail.com</a></p>
 
-    <button onclick="location.href='Index.html'">Voltar ao Jogo</button>
+    <button onclick="location.href='beta 007.html'">Voltar ao Jogo</button>
   </main>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 Jogo dos Acentos - Todos os direitos reservados.</p>
+      <nav>
+        <ul>
+          <li><a href="termos.html">Termos de Uso</a></li>
+          <li><a href="privacidade.html">Política de Privacidade</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
 </body>
 </html>
